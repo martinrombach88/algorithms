@@ -19,5 +19,10 @@ var numIdenticalPairs = function (nums) {
 };
 
 console.log(
-  numIdenticalPairs("Case 1:" + case1 + " Case 2: " + case2 + "Case 3:" + case3)
+  "Case 1: " +
+    numIdenticalPairs(case1) +
+    "\nCase 2: " +
+    numIdenticalPairs(case2) +
+    "\nCase 3: " +
+    numIdenticalPairs(case2)
 );
