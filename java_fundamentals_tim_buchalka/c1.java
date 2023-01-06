@@ -1,4 +1,4 @@
-public class Challenge1 {
+public class c1 {
     //Define displayHighScorePosition which prints a string indicating a player position in a sentence.
     //Define calculateHighScorePosition which takes a score and defines a position based on if/else statements
     //Result > 1000 = 1. 

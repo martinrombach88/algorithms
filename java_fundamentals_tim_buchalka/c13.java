@@ -1,4 +1,4 @@
-public class Challenge13 {
+public class c13 {
 //Minutes To Years and Days Calculator
 // Write a method printYearsAndDays with parameter of type long named minutes.
 

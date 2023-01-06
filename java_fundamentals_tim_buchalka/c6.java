@@ -1,4 +1,4 @@
-public class Challenge6 {
+public class c6 {
 // Leap Year Calculator
 // Write a method isLeapYear with a parameter of type int named year.
 
@@ -9,7 +9,6 @@ public class Challenge6 {
 // Otherwise, if it is in the valid range, calculate if the year is a leap year and return true if it is a leap year, otherwise return false.
 
 // Any year that is evenly divisible by 4 is a leap year: for example, 1988, 1992, and 1996 are leap years.
-
 // However, there is still a small error that must be accounted for. To eliminate this error, the Gregorian calendar stipulates that a year that is evenly divisible by 100 (for example, 1900) is a leap year only if it is also evenly divisible by 400.
 
     public static void main(String[] args) {
@@ -37,7 +36,7 @@ public class Challenge6 {
                     if (year % 400 == 0) {
                     leapYear = true;
                     }
-                    //If year isn't a century, 400 test not needed
+                //If year isn't a century, 400 test not needed
                 } else {
                     leapYear = true;
                 }

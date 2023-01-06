@@ -1,4 +1,4 @@
-public class Challenge10 {
+public class c10 {
     //Method Overloading
     //Methods with the multiple copies under the same name are known as 'Overloaded methods'
     //When you run these methods, Java works out which one you need based on the parameters

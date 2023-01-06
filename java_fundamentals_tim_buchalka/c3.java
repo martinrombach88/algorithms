@@ -1,4 +1,4 @@
-public class Challenge3 { 
+public class c3 { 
     //NOTE: 1 mile per hour is 1.609 kilometers per hour
     // toMilesPerHour(1.5); → should return value 1
     // toMilesPerHour(10.25); → should return value 6

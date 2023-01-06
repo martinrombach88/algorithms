@@ -1,4 +1,4 @@
-public class Challenge12 {
+public class c12 {
     //Area Calculator
     //Write two overloaded methods called area
 

@@ -1,4 +1,4 @@
-public class Challenge14 {
+public class c14 {
 //     Equality Printer
 // Write a method printEqual with 3 parameters of type int. The method should not return anything (void).
 

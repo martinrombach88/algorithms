@@ -1,4 +1,4 @@
-public class Challenge10Bonus {
+public class c10extra {
     //Convert whole int to 0.0 decimal fraction - see below
     //There may be times when you want to convert a whole number into a fraction version,
     //or see a decimal version. By converting to a double and / 10.00, the int becomes a decimal.
