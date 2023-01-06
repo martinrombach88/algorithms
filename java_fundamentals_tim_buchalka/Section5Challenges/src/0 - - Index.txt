@@ -1,0 +1,13 @@
+Overview of Challenges Reference
+
+1 High Score - Arguments and If then 
+2 Positive/Negative - If then 
+3 MPH Converter - Convert kilometers to miles, Follow a formula, Math.round
+4 MB Converter - Convert kilobytes to megabytes, Follow a formula
+5 Dog Wake Up - If Conditions, Booleans
+6 Leap Year Calculator - Complex If Conditions, Follow a formula
+7 Round to 3 decimal places - Follow a Formula, Math.floor/Math.ceil
+8 Equal Sum - Comparison, Positive and Negative Numbers
+9 List of Teens - Comparison, Methods calling Methods 
+10 Centimeters Converter - Convert Feet Inches to Centimeters, Method Overloading
+10 Challenge 10 Bonus - Fraction Converter, Convert int to decimal fraction
