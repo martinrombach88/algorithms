@@ -11,3 +11,5 @@ Overview of Challenges Reference
 9 List of Teens - Comparison, Methods calling Methods 
 10 Centimeters Converter - Convert Feet Inches to Centimeters, Method Overloading
 10 Challenge 10 Bonus - Fraction Converter, Convert int to decimal fraction
+11 Seconds to Hours/Minutes/Seconds Converter - Formula Following, Remainders, Method Overloading
+11 Challenge 11 Note - Percentages Returns in convertors 
