@@ -14,3 +14,5 @@ Overview of Challenges Reference
 11 Seconds to Hours/Minutes/Seconds Converter - Formula Following, Remainders, Method Overloading
 11 C11 Note - Percentages Returns in converters 
 12 Area Calculator - Math.PI, Method Overloading
+13 Minutes To Years and Days Calculator - Following a Formula
+14 Equality Printer - Comparison
