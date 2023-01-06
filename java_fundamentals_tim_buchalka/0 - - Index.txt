@@ -10,6 +10,7 @@ Overview of Challenges Reference
 8 Equal Sum - Comparison, Positive and Negative Numbers
 9 List of Teens - Comparison, Methods calling Methods 
 10 Centimeters Converter - Convert Feet Inches to Centimeters, Method Overloading
-10 Challenge 10 Bonus - Fraction Converter, Convert int to decimal fraction
+10 C10 Bonus - Fraction Converter, Convert int to decimal fraction
 11 Seconds to Hours/Minutes/Seconds Converter - Formula Following, Remainders, Method Overloading
-11 Challenge 11 Note - Percentages Returns in convertors 
+11 C11 Note - Percentages Returns in converters 
+12 Area Calculator - Math.PI, Method Overloading

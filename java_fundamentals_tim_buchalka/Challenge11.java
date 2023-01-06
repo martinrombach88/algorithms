@@ -19,6 +19,7 @@ public class Challenge11 {
         System.out.println(getDurationString(3600)); //1 hour
         System.out.println(getDurationString(3945)); //1 hour 5 minutes and 45 seconds.
         System.out.println(getDurationString(5000)); //1 hour 23 minutes and 20 seconds.
+        System.out.println(getDurationString(-3945)); //Invalid input
 
     }
 
@@ -44,7 +45,7 @@ public class Challenge11 {
 
     public static String getDurationString(int minutes, int seconds) {
         String result = "Invalid Input.";
-        if (seconds <= 0 || seconds < 60) {
+        if (minutes >=0 && seconds >= 0 || seconds < 60) {
             int hours = minutes / 60;
             int remainder = minutes - (hours * 60);
             //remainder --- You can do this with minutes % 60;
