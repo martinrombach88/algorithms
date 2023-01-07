@@ -16,3 +16,7 @@ Overview of Challenges Reference
 12 Area Calculator - Math.PI, Method Overloading
 13 Minutes To Years and Days Calculator - Following a Formula
 14 Equality Printer - Comparison
+15 Cat Playing - Comparison
+16 Nato Alphabet - Switch
+17 Day of the Week - Switch
+18 Days in a Month - Switch, Formulas, Methods calling methods
