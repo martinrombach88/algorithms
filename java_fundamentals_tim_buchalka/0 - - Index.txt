@@ -23,3 +23,4 @@ Overview of Challenges Reference
 19 Prime Number Check and Count Prime in Range - For Loop, Prime Numbers
 20 Sum of Numbers Divisible by 3 and 5 - For Loop
 21 Find and Sum Odd - For Loop, Methods calling Methods
+22 Even Number Checker - While Loop
