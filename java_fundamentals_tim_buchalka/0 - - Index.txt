@@ -1,17 +1,17 @@
-Overview of Challenges Reference
+Overview of Challenges Reference (c = challenge)
 
 1 High Score - Arguments and If then 
 2 Positive/Negative - If then 
-3 MPH Converter - Convert kilometers to miles, Follow a formula, Math.round
-4 MB Converter - Convert kilobytes to megabytes, Follow a formula
+3 MPH Converter - Follow a formula, Math.round
+4 MB Converter - Follow a formula
 5 Dog Wake Up - If Conditions, Booleans
-6 Leap Year Calculator - Complex If Conditions, Follow a formula
+6 Leap Year Calculator - If Conditions, Follow a formula
 7 Round to 3 decimal places - Follow a Formula, Math.floor/Math.ceil
 8 Equal Sum - Comparison, Positive and Negative Numbers
 9 List of Teens - Comparison, Methods calling Methods 
-10 Centimeters Converter - Convert Feet Inches to Centimeters, Method Overloading
-10 C10 Bonus - Fraction Converter, Convert int to decimal fraction
-11 Seconds to Hours/Minutes/Seconds Converter - Formula Following, Remainders, Method Overloading
+10 Convert Feet Inches to Centimeters -  Method Overloading
+10 C10 Bonus - Convert Int to Decimal Double
+11 Seconds to Hours/Minutes/Seconds Converter - Formula Following, Modulo Operator, Method Overloading
 11 C11 Note - Percentages Returns in converters 
 12 Area Calculator - Math.PI, Method Overloading
 13 Minutes To Years and Days Calculator - Following a Formula
@@ -19,8 +19,17 @@ Overview of Challenges Reference
 15 Cat Playing - Comparison
 16 Nato Alphabet - Switch
 17 Day of the Week - Switch
-18 Days in a Month - Switch, Formulas, Methods calling methods
+18 Days in a Month - Switch, Methods calling methods
 19 Prime Number Check and Count Prime in Range - For Loop, Prime Numbers
 20 Sum of Numbers Divisible by 3 and 5 - For Loop
-21 Find and Sum Odd - For Loop, Methods calling Methods
+21 Find and Sum Odd - For Loop
 22 Even Number Checker - While Loop
+23 Sum The Digits - While Loop
+24 Palindrome (Number) - While Loop
+25 First and Last Digit Sum - While Loop
+26 Even Digit Sum - While Loop
+27 Shared Digit - While Loop
+28 Last Digit - Modulo, While Loop
+29 Print Factors - Modulo, For Loop
+30 Greatest Common Divisor - While Loop
+31 Perfect Number - For Loop
