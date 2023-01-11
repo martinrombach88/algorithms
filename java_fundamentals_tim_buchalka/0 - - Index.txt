@@ -1,11 +1,15 @@
 Overview of Challenges Reference (c = challenge)
 
+CHANGE TO 01, 02, 03 for best ordering!!!!!
+
+To find the best examples, Ctrl F and search for 'High Difficulty'
+
 1 High Score - Arguments and If then 
 2 Positive/Negative - If then 
 3 MPH Converter - Follow a formula, Math.round
 4 MB Converter - Follow a formula
 5 Dog Wake Up - If Conditions, Booleans
-6 Leap Year Calculator - If Conditions, Follow a formula
+6 Leap Year Calculator - If Conditions, Follow a formula, High Difficulty
 7 Round to 3 decimal places - Follow a Formula, Math.floor/Math.ceil
 8 Equal Sum - Comparison, Positive and Negative Numbers
 9 List of Teens - Comparison, Methods calling Methods 
@@ -33,3 +37,4 @@ Overview of Challenges Reference (c = challenge)
 29 Print Factors - Modulo, For Loop
 30 Greatest Common Divisor - While Loop
 31 Perfect Number - For Loop
+32 Number To Words - High Difficulty, Three Interacting Methods, For and While, Switch
