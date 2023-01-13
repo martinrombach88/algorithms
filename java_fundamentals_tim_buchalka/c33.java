@@ -44,18 +44,19 @@ public class c33 {
             return false;
         
         //Additional bags
-        //Divide by 5 (bigCount is worth 5 so modulo cuts down to small count left.
+        //Divide by 5 (bigCount is worth 5 so modulo cuts down to small count left)
         
         //Why does this handle large big counts? 
         //With modulo, the code doesn't try to use every bigCount, it checks if 5 can go into it.
         //by showing us the division of five and the remainder.
-        //If the goal is too big for bigCount, it's already handled.
-        //If bigCount is big and smallCount is zero
+        //If the goal is too big for bigCount, it's already handled in line 43.
+        //If bigCount is big and smallCount is zero, it's safe to say it fits when dividing by 5.
+        //Which means after dividing by 5, you can compare smallCount with the remainder.
 
         //If the remainder is bigger than small count, return false.
         } else {
-            int remainder =  goal % 5;
-            System.out.println(remainder);
+            // int remainder =  goal % 5;
+            // System.out.println(remainder);
             return (goal % 5 <= smallCount);
 
         }
