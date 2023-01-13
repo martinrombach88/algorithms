@@ -38,3 +38,4 @@ To find the best examples, Ctrl F and search for 'High Difficulty'
 30 Greatest Common Divisor - While Loop
 31 Perfect Number - For Loop
 32 Number To Words - High Difficulty, Three Interacting Methods, For and While, Switch
+33 Flour Pack Problem - High Difficulty, Mathematics
