@@ -74,4 +74,10 @@ public class c33 {
         }
 
     }
+
+    //To remember:
+    //Try using a comparison on the return or condition to make efficient code that handles lots of mathetical results.
+    //e.g. return variable > resultvariable
+    //Modulo is a good tool for handling numbers divisible by 5. (or 2)
+    //Using decrementing while loops is similarly useful for the same goal.
 }
