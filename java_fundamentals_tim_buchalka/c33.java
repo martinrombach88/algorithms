@@ -28,7 +28,7 @@ public class c33 {
 
         // System.out.println(canPack (2, 1, 5)); //returns true 1 big bag covers the goal
 
-        System.out.println(canPack (26, 0, 69));
+        System.out.println(canPack (26, 0, 70));
     }
 
     public static boolean canPack(int bigCount, int smallCount, int goal) {
@@ -58,7 +58,19 @@ public class c33 {
             // int remainder =  goal % 5;
             // System.out.println(remainder);
             return (goal % 5 <= smallCount);
+        
+        //Udemy Eddie - Alternative while loop for this part:
 
+        //Here Eddie uses a version of goal and bigCount consumed in this is scope in a whileLoop
+        //The logic similar to modulo, break down goal by 5. 
+        //By deleting in these increments, eventually either bigCount will equal 0, 
+        //or goal will be less than 5, 
+        //therefore ready to compare with smallCount.
+            // while (bigCount > 0 && goal >= 5) {
+            //     goal -= 5;
+            //     bigCount--;
+            // }
+            // return smallCount >= goal; 
         }
 
     }
