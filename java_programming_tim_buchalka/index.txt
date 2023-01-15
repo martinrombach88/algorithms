@@ -39,3 +39,4 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 35 Diagonal Star - Nested For Loops, Printing Patterns with Loops
 36 Sum of Five User Inputs - System Console/System Scanner, User Input
 37 Min and Max of User Inputs - User Input
+38 Input Calculator - User Input, Scanner

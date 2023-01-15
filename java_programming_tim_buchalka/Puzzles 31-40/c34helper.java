@@ -8,7 +8,8 @@ public class c34helper {
     //Key concept - Highest Common Factor - if it's a prime, the highest common factor is the number itself.
     //3 = 3 (prime), 55 = 11 (not prime), 11 = 11 (prime)
 
-    //You can use hcf helper function to complete the highestPrime function and the isPrime function
+    //You can use hcf helper function to complete the isPrime function
+    //IMPORTANT - - To finish the highestPrime function without a decrementing loop, you need to recursively call hcf.
 
     public static boolean isPrime(int n) {
         //2 is a prime, but can't be checked

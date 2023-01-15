@@ -57,7 +57,7 @@ Write another overloaded method named getBucketCount with 2 parameters namely, a
 
 The method needs to return a value of type int that represents the number of buckets that Bob needs to buy before going to work. To calculate the bucket count, refer to the notes below.
 
-If one of the parameters area or areaPerBucket is less or equal to 0, the method needs to return -1to indicate an invalid value.
+If one of the parameters area or areaPerBucket is less or equal to 0, the method needs to return -1 to indicate an invalid value.
 
 If all parameters are valid, the method needs to calculate the number of buckets and return it.
 
