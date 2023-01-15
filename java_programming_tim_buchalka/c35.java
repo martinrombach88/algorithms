@@ -27,6 +27,8 @@ public class c35 {
         // * *  * *
         // **    **
         // ********
+
+        // printSquareStar(25); //Makes huge cross box
     }   
     
     public static void printSquareStar(int n) {
@@ -43,7 +45,10 @@ public class c35 {
                 } else {
                     //This condition decides when to print star
                     //Use breakpoints to check whether you print in the right place
-                    //col = 0 -> print in column 1
+                    //col == 0 --> always print first column
+                    //col == row - 1 --> makes diagonal line down and right
+                    //col == (n - row) --> makes diagonal line down and left
+                    //col == (n-1) --> always print last column
                     if (col == 0 || col == (row - 1) || col == (n - row) || col == (n - 1)) {
                         System.out.print("*");
                     } else {
