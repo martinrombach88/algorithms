@@ -1,4 +1,4 @@
-public class c34 {
+public class c34forloop {
     // Write a method named getLargestPrime with one parameter of type int named number. 
 
     // If the number is negative or does not have any prime numbers, the method should return -1 to indicate an invalid value.
@@ -14,7 +14,8 @@ public class c34 {
 
 
     }
-
+    //Udemy solution: decrementing for loop
+    //Similar solutions exist with while loops, but use the same logic.
     public static int getLargestPrime(int n) {
         int result = -1;
 
@@ -55,10 +56,7 @@ public class c34 {
 
     //Note: Andrew wouldn't recommend this approach in a business context because
     //a linter would block a for loop that changes it's own condition.
-    //He recommended a recursive solution as it's more readable and easier to use.
-
-    //See c34extra.java for recursive solutions.
-
-    //However the course is following what students have been taught so far. That's why
-    //the solution involves a for loop / while loop.
+    //Also the code is difficult to read.
+    //He recommends using a helper function instead.
+    //c34mentor - his version
 }

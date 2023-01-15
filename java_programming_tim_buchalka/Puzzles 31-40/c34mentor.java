@@ -1,6 +1,8 @@
-public class c34mentorextra { 
+public class c34mentor { 
     public static void main(String[] args) {
         System.out.println(isPrime(11));
+        System.out.println(isPrime(55));
+        System.out.println(isPrime(6));
     }
  
  private static boolean isPrime(int num) {

@@ -13,6 +13,7 @@ public class c36 {
     }
 
     public static void sumOfFive () {
+        //Unable to use this scanner in VS Code without research -> Used console instead
         // Scanner scanner = new Scanner(System.in);
 
         boolean validNum = false;
