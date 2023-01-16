@@ -40,3 +40,5 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 36 Sum of Five User Inputs - System Console/System Scanner, User Input
 37 Min and Max of User Inputs - User Input
 38 Input Calculator - User Input, Scanner
+39 Paint Job - Math.ceil, Overloaded Methods
+40 Bank Account - Class Creation, Encapsulation
