@@ -43,4 +43,6 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 39 Paint Job - Math.ceil, Overloaded Methods
 40 Bank Account - Classes, Encapsulation
 41 Simple Calculator - Classes, Encapsulation
-41 Person - Classes, Encapsulation
+42 Person - Classes, Encapsulation
+43 Customer - Constructors
+44 Wall - Constructors
