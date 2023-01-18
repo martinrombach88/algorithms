@@ -41,8 +41,11 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 37 Min and Max of User Inputs - User Input
 38 Input Calculator - User Input, Scanner
 39 Paint Job - Math.ceil, Overloaded Methods
-40 Bank Account - Classes, Encapsulation
+40 Bank Account - Classes, Encapsulation (Best Intro to Classes
 41 Simple Calculator - Classes, Encapsulation
 42 Person - Classes, Encapsulation
 43 Customer - Constructors
 44 Wall - Constructors
+45 Point - Class Methods
+46 Carpet Cost Calculator - Constructor using Classes as Params
+47 

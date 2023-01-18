@@ -1,4 +1,4 @@
-public class Classes2 { 
+public class c40 { 
     //Object Oriented Challenge
     //Create a new class for bank account
     //Create fields: account number, account balance, customer name, email, phone number
