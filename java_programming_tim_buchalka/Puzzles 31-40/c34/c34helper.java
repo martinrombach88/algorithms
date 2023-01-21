@@ -1,15 +1,20 @@
 public class c34helper {
     public static void main(String[] args) {
-        System.out.println(isPrime(11));
-        System.out.println(isPrime(55));
-        System.out.println(isPrime(6));
-        System.out.println(isPrime(2));
+        //Is Prime
+        System.out.println(isPrime(11)); //true
+        System.out.println(isPrime(55)); //false
+        System.out.println(isPrime(6)); //false
+        System.out.println(isPrime(2)); //true
+
+        //highestPrime
+        System.out.println(getLargestPrime(55)); //11
+        System.out.println(getLargestPrime(217)); //31
+        System.out.println(getLargestPrime(45));
     }
     //Key concept - Highest Common Factor - if it's a prime, the highest common factor is the number itself.
     //3 = 3 (prime), 55 = 11 (not prime), 11 = 11 (prime)
 
-    //You can use hcf helper function to complete the isPrime function
-    //IMPORTANT - - To finish the highestPrime function without a decrementing loop, you need to recursively call hcf.
+
 
     public static boolean isPrime(int n) {
         //2 is a prime, but can't be checked
@@ -53,5 +58,23 @@ public class c34helper {
             i++;
         }
         return result;
+    }
+
+
+    //Using a helper function to accomplish the for loop result
+    public static int getLargestPrime (int n){
+        if (n < 2) {
+            return -1;
+        }
+
+        if (isPrime(findHcf(n))) {
+            return findHcf(n);
+        } else {
+            int i = findHcf(n);
+            while(!isPrime(findHcf(i))) {
+                i = findHcf(i);
+            } 
+            return i;
+        }
     }
 }

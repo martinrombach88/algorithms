@@ -38,7 +38,7 @@ public class c34forloop {
 
                         n /= i;
                         //Use i to divide n, and get the highest number (n / i)
-                        //Then use highest nber as new value of n (n = n / i)
+                        //Then use highest number as new value of n (n = n / i)
                         
                         i--;
                         //Restart a loop on the highest number (line 29)
