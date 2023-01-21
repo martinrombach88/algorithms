@@ -1,8 +1,6 @@
 public class Employee extends Worker{
-    private long employeeId;
-    private String hireDate;
-
-
+    protected long employeeId;
+    protected String hireDate;
 
     public Employee(String name, String birthDate, String endDate, long employeeId, String hireDate) {
         super(name, birthDate, endDate);

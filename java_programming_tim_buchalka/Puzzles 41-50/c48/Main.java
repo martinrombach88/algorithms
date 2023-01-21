@@ -15,10 +15,12 @@ public class Main {
     //    Worker martin = new Worker("Martin", "1988-06-05", "2022-12-12");
 
     //When we instantiate employee, with 3 params from worker and 2 extra params.
-    Employee martin = new Employee("Martin", "1988-06-05", "2022-12-12", 225, "2021-06-20");
+    // Employee martin = new Employee("Martin", "1988-06-05", "2022-12-12", 225, "2021-06-20");
+    SalariedEmployee martin = new SalariedEmployee("Martin", "1988-06-05", "2022-12-12", 225, "2021-06-20", 40000, false);
 
     martin.getAge();
     martin.collectPay(0, 19);
     martin.terminate("2022-12-12");
+    martin.retire();
     }
 }

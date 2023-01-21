@@ -3,9 +3,9 @@ import java.time.Period;
 
 
 public class Worker {
-    private String name;
-    private String birthDate;
-    private String endDate;
+    protected String name;
+    protected String birthDate;
+    protected String endDate;
 
 
     public Worker() {
