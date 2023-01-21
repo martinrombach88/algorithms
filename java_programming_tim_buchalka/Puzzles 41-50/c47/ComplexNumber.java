@@ -19,7 +19,7 @@ public class ComplexNumber {
     //Mathematicians endgame for complex numbers is multiplication, and while that is beyond the scope
     //of this exercise, it could be valuable to understand as it may be used in interview questions.
     //Multiplication is achieved through rotation across the grid ('turning the paper').
-    //https://youtu.be/5PcpBw5Hbwo -> 1hr lecture
+    //https://youtu.be/5PcpBw5Hbwo -> Lecture from mathematician.
 
     public double getReal() {
         return this.real;
