@@ -1,12 +1,12 @@
 Workers
 
-Challenge - Create a class hierarchy of workers: A worker class, employee class, salaried employee and hourly employee class.
+Challenge - Create a class hierarchy of workers: A worker class, employee class, and either the salaried employee and hourly employee class.
 Super: Worker class -> name: String, birthDate String, endDate String. Methods: int getAge(), double collectPay(), terminate (String endDate)
 Sub (of Worker): Employee - employeeId long, hireDate String
 Sub (of Employee): SalariedEmployee - annualSalary double, isRetired boolean, Method - retire()
 Sub (of Employee): HourlyEmployee -  hourlyPayRate double, method - getDoublePay
 
-Then create a main method that will create either a SalariedEmployee or HourlyEmployee
+Then create a main method that will create SalariedEmployee or HourlyEmployee
 and call the methods getAge, collectPay and the method related to the class you implemented.
 
 
