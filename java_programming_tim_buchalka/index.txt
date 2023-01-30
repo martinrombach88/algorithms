@@ -51,3 +51,4 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 47 Complex Operations - Complex Number Basics
 48 Worker - Inheritance
 49 Cylinder - Inheritance
+50 Pool Area - Inheritance
