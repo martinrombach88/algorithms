@@ -4,8 +4,6 @@ A complex number is a number that can be expressed in the form a + bi, where a a
 
 To add or subtract two complex numbers, just add or subtract the corresponding real and imaginary parts. For instance, the sum of 5 + 3i and 4 + 2i is 9 + 5i. For another, the sum of 3 + i and –1 + 2i is 2 + 3i.
 
-
-
 Write a class with the name ComplexNumber. The class needs two fields (instance variables) with name real and imaginary of type double. It represents the Complex Number.
 
 The class needs to have one constructor. The constructor has parameters real and imaginary of type double and it needs to initialize the fields.

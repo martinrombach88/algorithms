@@ -48,4 +48,6 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 44 Wall - Constructors
 45 Point - Class Methods
 46 Carpet Cost Calculator - Constructor using Classes as Params
-47 
+47 Complex Operations - Complex Number Basics
+48 Worker - Inheritance
+49 Cylinder - Inheritance
