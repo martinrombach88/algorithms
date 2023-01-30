@@ -1,4 +1,4 @@
-public class Main {
+public class c48 {
     // Workers
 
     // Challenge - Create a class hierarchy of workers: A worker class, employee
