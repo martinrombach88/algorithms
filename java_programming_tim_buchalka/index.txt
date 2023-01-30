@@ -2,16 +2,16 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 
 1 High Score - Arguments and If then 
 2 Positive/Negative - If then 
-3 MPH Converter - Follow a formula, Math.round
+3 MPH Converter - Math.round
 4 MB Converter - Follow a formula
 5 Dog Wake Up - If Conditions, Booleans
-6 Leap Year Calculator - If Conditions, Follow a formula, High Difficulty
-7 Round to 3 decimal places - Follow a Formula, Math.floor/Math.ceil
+6 Leap Year Calculator - If Conditions, High Difficulty
+7 Round to 3 decimal places - Math.floor/Math.ceil
 8 Equal Sum - Comparison, Positive and Negative Numbers
 9 List of Teens - Comparison, Methods calling Methods 
 10 Convert Feet Inches to Centimeters -  Method Overloading
 10 C10 Bonus - Convert Int to Decimal Double
-11 Seconds to Hours/Minutes/Seconds Converter - Formula Following, Modulo Operator, Method Overloading
+11 Seconds to Hours/Minutes/Seconds Converter - Modulo Operator, Method Overloading
 11 C11 Note - Percentages Returns in converters 
 12 Area Calculator - Math.PI, Method Overloading
 13 Minutes To Years and Days Calculator - Following a Formula
@@ -52,3 +52,4 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 48 Worker - Inheritance
 49 Cylinder - Inheritance
 50 Pool Area - Inheritance
+51 Smart Kitchen - Composition, Code Hiding 
