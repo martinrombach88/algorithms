@@ -1,11 +1,13 @@
 Puzzle Index - Tim Buchalka - Java Programming Masterclass
+Puzzle 1-50 built in VS Code
+Puzzle 51+ built in IntelliJ Idea
 
 1 High Score - Arguments and If then 
 2 Positive/Negative - If then 
 3 MPH Converter - Math.round
 4 MB Converter - Follow a formula
 5 Dog Wake Up - If Conditions, Booleans
-6 Leap Year Calculator - If Conditions, High Difficulty
+6 Leap Year Calculator - Complex If Conditions
 7 Round to 3 decimal places - Math.floor/Math.ceil
 8 Equal Sum - Comparison, Positive and Negative Numbers
 9 List of Teens - Comparison, Methods calling Methods 
@@ -19,7 +21,7 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 15 Cat Playing - Comparison
 16 Nato Alphabet - Switch
 17 Day of the Week - Switch
-18 Days in a Month - Switch, Methods calling methods
+18 Days in a Month - Switch
 19 Prime Number Check and Count Prime in Range - For Loop, Prime Numbers
 20 Sum of Numbers Divisible by 3 and 5 - For Loop
 21 Find and Sum Odd - For Loop
@@ -35,15 +37,15 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 31 Perfect Number - For Loop
 32 Number To Words - High Difficulty, Three Interacting Methods, For and While, Switch
 33 Flour Pack Problem - High Difficulty, Mathematics
-34 Largest Prime - High Difficulty, Prime Numbers, Module and Division, Recursion
+34 Largest Prime - High Difficulty, Prime Numbers
 35 Diagonal Star - Nested For Loops, Printing Patterns with Loops
 36 Sum of Five User Inputs - System Console/System Scanner, User Input
 37 Min and Max of User Inputs - User Input
 38 Input Calculator - User Input, Scanner
 39 Paint Job - Math.ceil, Overloaded Methods
-40 Bank Account - Classes, Encapsulation (Best Intro to Classes
-41 Simple Calculator - Classes, Encapsulation
-42 Person - Classes, Encapsulation
+40 Bank Account - Classes
+41 Simple Calculator - Classes
+42 Person - Classes
 43 Customer - Constructors
 44 Wall - Constructors
 45 Point - Class Methods
@@ -52,4 +54,6 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 48 Worker - Inheritance
 49 Cylinder - Inheritance
 50 Pool Area - Inheritance
-51 Smart Kitchen - Composition, Code Hiding 
+51 Smart Kitchen - Composition
+52 Bedroom - Composition
+53 Printer - Encapsulation
