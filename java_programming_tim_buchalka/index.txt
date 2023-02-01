@@ -57,4 +57,5 @@ Puzzle 51+ built in IntelliJ Idea
 51 Smart Kitchen - Composition
 52 Bedroom - Composition
 53 Printer - Encapsulation
-54 Cars - getClass, Polymorphism
+54 Cars - getClass/getSimpleName, Polymorphism (mildly)
+55 Bill's Burgers - OOP, Inheritance, Encapsulation, String Formatting
