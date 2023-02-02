@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/java_programming_tim_buchalka/Puzzles 41-50/Puzzles 41-50.iml" filepath="$PROJECT_DIR$/java_programming_tim_buchalka/Puzzles 41-50/Puzzles 41-50.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_programming_tim_buchalka/Puzzles 51-60/Puzzles 51-60.iml" filepath="$PROJECT_DIR$/java_programming_tim_buchalka/Puzzles 51-60/Puzzles 51-60.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/algorithms.iml" filepath="$PROJECT_DIR$/.idea/algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_programming_tim_buchalka/java_programming_tim_buchalka.iml" filepath="$PROJECT_DIR$/java_programming_tim_buchalka/java_programming_tim_buchalka.iml" />
+    </modules>
+  </component>
+</project>
