@@ -60,3 +60,4 @@ Puzzle 51+ built in IntelliJ Idea
 54 Cars - getClass/getSimpleName, Polymorphism (mildly)
 55 Bill's Burgers - OOP, Inheritance, Encapsulation, String Formatting
 56 Sort Array in Descending Order - Arrays, For Loop, Random
+57 Find Min - Arrays, User Input, Sort
