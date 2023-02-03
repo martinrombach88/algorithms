@@ -2,6 +2,11 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 Puzzle 1-50 built in VS Code
 Puzzle 51+ built in IntelliJ Idea
 
+To Review:
+
+34 (use Andrew's recursive method / rebuild for loop from memory)
+58 (use intended swapping to explore reference types)
+
 1 High Score - Arguments and If then 
 2 Positive/Negative - If then 
 3 MPH Converter - Math.round
@@ -27,7 +32,7 @@ Puzzle 51+ built in IntelliJ Idea
 21 Find and Sum Odd - For Loop
 22 Even Number Checker - While Loop
 23 Sum The Digits - While Loop
-24 Palindrome (Number) - While Loop
+24 Number Palindrome - While Loop
 25 First and Last Digit Sum - While Loop
 26 Even Digit Sum - While Loop
 27 Shared Digit - While Loop
@@ -37,7 +42,7 @@ Puzzle 51+ built in IntelliJ Idea
 31 Perfect Number - For Loop
 32 Number To Words - High Difficulty, Three Interacting Methods, For and While, Switch
 33 Flour Pack Problem - High Difficulty, Mathematics
-34 Largest Prime - High Difficulty, Prime Numbers
+34 Largest Prime - High Difficulty, Prime Numbers (to review)
 35 Diagonal Star - Nested For Loops, Printing Patterns with Loops
 36 Sum of Five User Inputs - System Console/System Scanner, User Input
 37 Min and Max of User Inputs - User Input
@@ -57,8 +62,8 @@ Puzzle 51+ built in IntelliJ Idea
 51 Smart Kitchen - Composition
 52 Bedroom - Composition
 53 Printer - Encapsulation
-54 Cars - getClass/getSimpleName, Polymorphism (mildly)
+54 Cars - getClass/getSimpleName, Polymorphism
 55 Bill's Burgers - OOP, Inheritance, Encapsulation, String Formatting
 56 Sort Array in Descending Order - Arrays, For Loop, Random
 57 Find Min - Arrays, User Input, Sort
-58 Reverse Array = 
+58 Reverse Array = Arrays, Looping Over Arrays (to review)
