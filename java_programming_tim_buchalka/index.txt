@@ -6,6 +6,7 @@ To Review:
 
 34 (use Andrew's recursive method / rebuild for loop from memory)
 58 (use intended swapping to explore reference types)
+59 (add validation to entry menu)
 
 1 High Score - Arguments and If then 
 2 Positive/Negative - If then 
@@ -67,4 +68,5 @@ To Review:
 56 Sort Array in Descending Order - Arrays, For Loop, Random
 57 Find Min - Arrays, User Input, Sort
 58 Reverse Array - Arrays, Looping Over Arrays (to review)
-59 Grocery List - Array Lists, 
+59 Grocery List - NOT FINISHED - ADD DUPLICATE VALIDATION AND DOUBLE CHECK REQUIREMENTS BEFORE DOING 60
+ArrayLists, Arrays, User Input, Validation, Helper Functions
