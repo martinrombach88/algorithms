@@ -66,4 +66,5 @@ To Review:
 55 Bill's Burgers - OOP, Inheritance, Encapsulation, String Formatting
 56 Sort Array in Descending Order - Arrays, For Loop, Random
 57 Find Min - Arrays, User Input, Sort
-58 Reverse Array = Arrays, Looping Over Arrays (to review)
+58 Reverse Array - Arrays, Looping Over Arrays (to review)
+59 Grocery List - Array Lists, 
