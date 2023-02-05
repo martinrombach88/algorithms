@@ -47,6 +47,13 @@ public class Main {
             }
         }
         System.out.println("Exited program.");
+
+        //Tim used a switch here. With a switch, you can call
+        //prompt once in the code, then follow a switch case based on
+        //user interaction and status (hasList/!hasList).
+        //This should lead to more efficient code and less repetition.
+        //Next time you find yourself making and if block,
+        //if the if-block has 3 or more conditions, try building a switch instead.
     }
 
     public static int prompt(Scanner scanner) {
@@ -62,6 +69,9 @@ public class Main {
     public static void addGroceries(ArrayList<String> groceries, Scanner scanner) {
         System.out.println("Add some groceries to the list. Duplicates cannot be added.");
         String[] userList = (scanner.nextLine().toLowerCase().split(","));
+
+        //Here Tim used List.of as he was using the array type.
+        //As List uses ArrayList type.
         groceries.addAll(Arrays.asList(userList));
         groceries.replaceAll(String::trim);
         Set<String> set = new HashSet<>(groceries);
