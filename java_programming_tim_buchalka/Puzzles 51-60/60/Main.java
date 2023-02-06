@@ -92,7 +92,7 @@ public class Main {
     }
 
     public static void printLocation(Town prevTown, Town town) {
-        System.out.printf("->  From %s to %s. %n", prevTown.name, town.name);
+        System.out.printf("->  From %s to %s, %dkm distance. %n", prevTown.name, town.name, town.distance);
     }
 
     public static void printFullItinerary(LinkedList<Town> placesToVisit) {

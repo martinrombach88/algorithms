@@ -39,6 +39,15 @@ But you don't know the location of the iterator, so it keeps going back further
 than the origin point. So the code returns 0 and 1, even after you next()
 the iterator a few times.
 
+Center:
+Once you move from the right point, these lines return what you need.
+// prevTown = (Town) placesToVisit.get(iterator.previousIndex());
+// town = (Town) placesToVisit.get(iterator.nextIndex());
+You need the iterator in the right location when traversing to keep this right.
+The iterator is fine from the starting point of prevtown = 0 and town = 1.
+But when you hit the end and go back, or hit back multiple times at the start,
+the iterator keeps going beyond the scope of 0 and 1 / getLast / 2ndtoLast.
+
 Tail:
 getLast - 1 isn't an existing point. So to put prevTown in position of 2nd to last,
 you need to find a new approach. You might consider avoiding using this position.
@@ -47,8 +56,9 @@ When the iterator reaches !hasNext or !hasPrevious, can you reset it to a better
 That's what you attempted with multiple next() / previous() calls, but this was experimentation.
 
 Here you can see the iteration points of the iterator.
-ip 1 ip 2 ip 3 ip 4 ip 5 ip 6 ip 7 ip 8 ip
-
+ip 1                ip 2            ip 3 ip 4 ip 5 ip 6 ip 7 ip 8 ip
+it = b1, it = af1, it=b2, it=af2 . . . . . .
+iterator = before 1, 1, it = after 1, it = before 2, 2, it = after 2.
 
 
 /3. Don't write any more code until you have a real plan!
