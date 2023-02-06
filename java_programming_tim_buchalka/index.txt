@@ -1,6 +1,6 @@
 Puzzle Index - Tim Buchalka - Java Programming Masterclass
 Puzzle 1-50 built in VS Code
-Puzzle 51+ built in IntelliJ Idea
+Puzzle 51+ built in IntelliJ IDEA
 
 To Review:
 
@@ -66,7 +66,7 @@ To Review:
 54 Cars - getClass/getSimpleName, Polymorphism
 55 Bill's Burgers - OOP, Inheritance, Encapsulation, String Formatting
 56 Sort Array in Descending Order - Arrays, For Loop, Random
-57 Find Min - Arrays, User Input, Sort
+57 Find Min - Arrays, User Input via Scanner, Sort
 58 Reverse Array - Arrays, Looping Over Arrays (to review)
-59 Grocery List - NOT FINISHED - ADD DUPLICATE VALIDATION AND DOUBLE CHECK REQUIREMENTS BEFORE DOING 60
-ArrayLists, Arrays, User Input, Validation, Helper Functions
+59 Grocery List - Array Lists and Arrays, User Input, Validation, Helper Functions
+60 Itinerary - Linked Lists, List Iterator, Switch, Record, User Input via Scanner, Validation
