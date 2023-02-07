@@ -70,3 +70,4 @@ To Review:
 58 Reverse Array - Arrays, Looping Over Arrays (to review)
 59 Grocery List - Array Lists and Arrays, User Input, Validation, Helper Functions
 60 Itinerary - Linked Lists, List Iterator, Switch, Record, User Input via Scanner, Validation
+61 Bank - Classes, Autoboxing, Array Lists
