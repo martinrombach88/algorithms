@@ -20,8 +20,11 @@ public class Main {
 
         Bank Barclays = new Bank("Barclays", new ArrayList<>(List.of(Steve, Jacob)));
 
+
         Barclays.addCustomer(new Customer("Darren", new ArrayList<>(List.of(1000.00, 2000.00, -500.00))));
         Barclays.addTransaction("Darren", 50.00);
         Barclays.printStatement("Darren");
+        Barclays.addTransaction("Bob", 10.00);
+        Barclays.addCustomer(new Customer("Darren", new ArrayList<>(List.of(1000.00, 2000.00, -500.00))));
     }
 }

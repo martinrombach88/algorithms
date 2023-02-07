@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 public class Customer {
 
-    protected String name;
-    protected ArrayList<Double> transactions;
+    public String name;
+    public ArrayList<Double> transactions;
     //Double is the object
     //double is the primitive
     //ArrayLists need the object to be declared. The following line doesn't work.

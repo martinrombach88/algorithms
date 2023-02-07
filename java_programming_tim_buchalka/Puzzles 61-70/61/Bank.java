@@ -20,38 +20,38 @@ public class Bank {
 
     public void addCustomer(Customer customer) {
         //Add customer to customers list
-        for (Customer target : customers) {
-            if (customer == target) {
-                System.out.println("Customer " + customer + "already exists.");
-            }
-            else {
-                customers.add(customer);
-            }
-        }
+        customers.add(customer);
 
+        //Validation:
+        //While validation is beyond the scope of the challenge,
+        //it can be added to review.
+
+        //Issues:
+        //Changing the ArrayList while iterating over it
+        //returns a ConcurrentModificationException,
+        //so you need to get around that.
     }
 
     public void addTransaction(String customerName, double transaction) {
         for (Customer customer : customers) {
-            if (customer.name == customerName) {
+            if (customer.name.equals(customerName)) {
                 customer.transactions.add(transaction);
+                return;
             }
-            else {
-                System.out.println("Customer not found.");
-            }
+
         }
+        System.out.println("Customer not found.");
     }
 
     public void printStatement(String customerName) {
         //Print a statement including the customer name and transaction amounts.
         for (Customer customer : customers) {
-            if (customer.name == customerName) {
-                System.out.println("Name: " + customerName);
+            if (customerName.equals(customer.name)) {
+                System.out.println("Customer: " + customerName);
                 System.out.println("Transactions: ");
-                //The following code should unbox the transactions
+                //The following code unboxes the transactions
                 for (double transaction : customer.transactions) {
                     System.out.println(transaction);
-
                 }
             }
         }

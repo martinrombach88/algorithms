@@ -7,6 +7,7 @@ To Review:
 34 (use Andrew's recursive method / rebuild for loop from memory)
 58 (use intended swapping to explore reference types)
 59 (add validation to entry menu)
+61 (add validation to 'addCustomer' method)
 
 1 High Score - Arguments and If then 
 2 Positive/Negative - If then 
