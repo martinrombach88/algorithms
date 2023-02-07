@@ -3,72 +3,149 @@ import java.util.*;
 public class Main {
 
     public record Town(String name, int distance) {
+        @Override
+        public String toString() {
+            return name + " (" + distance + ")";
+        }
     }
 
     // Data does not need to change, so record is good
     public static void main(String[] args) {
-
-        ArrayList<Town> placesToVisit = new ArrayList<>(Arrays.asList(
-                // 3 include to test duplicate validation
-                new Town("Jangi", 0),
-                new Town("Jangi", 0),
-                new Town("Jangi", 0),
-                new Town("GyeongBokGong", 20),
-                new Town("Jeju", 140),
-                new Town("Busan", 80),
-                new Town("Taen", 100),
-                new Town("YangYang", 40),
-                new Town("ByeonsanBando", 80)));
-
-        itinerary(placesToVisit);
+        //ArrayList<Town> placesToVisit = new ArrayList<>(Arrays.asList(
+        //Type conversion overcomplicates the code, using more memory
+        //and making issues down the line. You should only
+        //convert type (ArrayList to LinkedList) if you really need to.
+        var placesToVisit = new LinkedList<Town>();
+            addTown(new Town("Jangi", 0), placesToVisit);
+            addTown(new Town("Jangi", 0), placesToVisit);
+            addTown(new Town("Jangi", 0), placesToVisit);
+            addTown(new Town("Jeju", 120), placesToVisit);
+            addTown(new Town("ByeonsanBando", 60), placesToVisit);
+            addTown(new Town("Busan", 170), placesToVisit);
+            addTown(new Town("Taen", 50), placesToVisit);
+            addTown(new Town("GyeongBokGong", 20), placesToVisit);
+            addTown(new Town("Jangi", 0), placesToVisit);
+            itinerary(placesToVisit);
     }
 
     // }
-    public static void itinerary(ArrayList<Town> arrayList) {
+    public static void itinerary(LinkedList<Town> placesToVisit) {
         // Create the linked list
-        // If a type isn't transferring, remember to cast!
-        var placesToVisit = convertToLinkedList(arrayList);
+
         Scanner scanner = new Scanner(System.in);
         var iterator = placesToVisit.listIterator();
-        System.out.println(iterator.next());
-
         boolean quit = false;
+        //Create the forward boolean here first, and set it to true.
+        boolean forward = true;
         printMenu();
         while (!quit) {
             System.out.println("Enter a letter or word for which action you want to do:");
-
             switch (scanner.nextLine()) {
-                case "F" -> moveLocation(placesToVisit, iterator, true);
-                case "B" -> moveLocation(placesToVisit, iterator, false);
-                // case "M" -> printMenu();
+                //Here you wasted a lot of time making a helper function.
+                //Sometimes a helper function overcomplicates the work.
+                //If a task is complicated, and you aren't sure how to do it,
+                // get it working in its original scope first,
+                // then build helper functions.
+
+                //Overcomplicating is particularly counter-productive with
+                //the listIterator method, as any unnecessary calls
+                //and reassignments (like your array[0] / array[1] assignments)
+                //will be hard to find and clear out.
+
+                //Key issue ->
+                //System.out.printf("->  From %s to %s, distance: %dkm. %n", placesToVisit.get(i - 1).name,lacesToVisit.get(i).name, placesToVisit.get(i - 1).distance);
+
+                //You were trying to make a complicated print call to both the current
+                // and previous towns within the forward/back traversal. This required further logic, as achieving this call requires reassignments.
+                //But the reassignments were beyond the scope of the challenge.
+                //Reassignments added extra steps in the iterator, so it was harder to
+                //understand how the iterator worked.
+
+                //Key Points:
+                //1. Clarify the requirements, use pseudo first
+                //2. Build the code, then adapt to a helper function when ready.
+                //3. Simple is usually better! If your code is too complicated, wipe,
+                //brainstorm and start over.
+
+
+                case "F" -> {
+                    System.out.println("Going forward through itinerary.");
+                    if (!forward) {
+                        forward = true;
+                        //Here we compensate for the need for 2 calls
+                        // with 1 extra call to iterator.next().
+                        if (iterator.hasNext()) {
+                            iterator.next();
+                        }
+                    }
+
+                    //This call is the regular call to print.
+                    //If the program reaches the start, the call above
+                    //triggered by the (!forward) condition
+                    //and this call (even with a print, the next();
+                    //will iterate after returning) are enough to
+                    //handle reaching the end point and reversing.
+                    if (iterator.hasNext()) {
+                        System.out.println(iterator.next());
+                    }
+
+                    //Simple is usually better!
+                }
+
+                case "B" -> {
+                    System.out.println("Going backward through itinerary.");
+                    //This code works the same way as above. There's no
+                    //need for reassignments or special if conditions.
+                    //The built functions (hasNext/hasPrevious) handle
+                    //this in a simple way, you should just trust it
+                    //to do it.
+
+                    if(forward) {
+                        forward = false;
+                        if (iterator.hasPrevious()) {
+                            iterator.previous();
+                        }
+                    }
+
+                    if (iterator.hasPrevious()) {
+                        System.out.println(iterator.previous());
+                    }
+                }
+                // case "M" -> printMenu(); -> see default
                 case "L" -> printFullItinerary(placesToVisit);
-                // You can't create validation errors with a typo in a switch, it just defaults
-                // When you type Q, it does this.
                 case "Q" -> {
                     System.out.println("Quitting Program");
                     quit = true;
                 }
+                // You can't create validation errors with a typo in a switch, it just defaults
+                //This makes it ideal for user input solutions.
                 default -> printMenu();
             }
 
         }
-        // Switch here (in while loop)
-        // Letter F -> Scroll to next town prompt (prompt: London to Paris)
-        // Letter B -> Scroll to prev town prompt (prompt: Glastonbury to London)
-        // Letter L -> Print list of places (names only)
-        // Letter M -> Return to Menu
-        // Letter Q -> Quit
     }
 
-    public static LinkedList convertToLinkedList(ArrayList<Town> arrayList) {
-        var linkedList = new LinkedList<Town>();
-        // Filter the param array for duplicates
-        for (Town town : arrayList) {
-            if (!linkedList.contains(town)) {
-                linkedList.add(town);
+    public static void addTown(Town town, LinkedList<Town> linkedList) {
+        //Check whether the town can be added
+        for (Town i : linkedList) {
+            if (linkedList.contains(town)) {
+                //At the end, the town is added to the list
+                //These return calls end the function early so
+                //that last call to add is never reached
+                return;
             }
         }
-        return linkedList;
+        //Add towns in distance order
+        //Index is the location to adjust to if the distance is greater
+        int matchIndex = 0;
+        for (Town j : linkedList) {
+            if(town.distance < j.distance) {
+                linkedList.add(matchIndex, town);
+                return;
+            }
+            matchIndex ++;
+        }
+        linkedList.add(town);
     }
 
     public static void printMenu() {
@@ -81,47 +158,12 @@ public class Main {
                 //Letter (Q)uit -> Quit Program""";
         System.out.println(textBlock);
     }
-
-    public static void moveLocation(LinkedList placesToVisit, ListIterator iterator, boolean forward) {
-        Town prevTown;
-        Town town;
-
-        // Two if blocks isn't a good approach. There's probably conflicts
-        // and redundancies you aren't seeing.
-        // Try to use one and visualise it before you write it.
-    }
-
-    public static void printLocation(Town prevTown, Town town) {
-        System.out.printf("->  From %s to %s, %dkm distance. %n", prevTown.name, town.name, town.distance);
-    }
-
     public static void printFullItinerary(LinkedList<Town> placesToVisit) {
         System.out.println("Trip starts at " + placesToVisit.getFirst().name);
-
         for (int i = 1; i < placesToVisit.size(); i++) {
-            System.out.printf("->  From %s to %s, distance: %dkm. %n", placesToVisit.get(i - 1).name,
-                    placesToVisit.get(i).name, placesToVisit.get(i - 1).distance);
+            System.out.printf("->  From %s to %s, distance travelled: %dkm. %n", placesToVisit.get(i - 1).name,
+                    placesToVisit.get(i).name, placesToVisit.get(i).distance);
         }
     }
 }
 
-// if (!iterator.hasPrevious()) {
-// prevTown = (Town) placesToVisit.get(0);
-// town = (Town) placesToVisit.get(1);
-// } else if (!iterator.hasNext()) {
-// prevTown = (Town) placesToVisit.get(iterator.previousIndex());
-// town = (Town) placesToVisit.get(iterator.nextIndex());
-// } else {
-// prevTown = (Town) placesToVisit.get(iterator.previousIndex());
-// town = (Town) placesToVisit.get(iterator.nextIndex());
-// }
-
-// if (forward && iterator.hasNext()) {
-// iterator.next();
-// printLocation(prevTown, town);
-// } else if (!forward && iterator.hasPrevious()) {
-// iterator.previous();
-// printLocation(prevTown, town);
-// } else {
-// printLocation(prevTown, town);
-// }
