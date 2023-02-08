@@ -26,7 +26,31 @@ public class Store {
             }
         }
 
+        public void addItemToOrder(OrderItem orderItem) {
+            ProductForSale product = orderItem.productForSale();
+            if(!order.contains(orderItem)) {
+                order.add(orderItem);
+                System.out.print("Order added - ");
+                product.printPricedLineItem(orderItem);
+            } else {
+                System.out.println("Item" + product.description + " already in order.");
+            }
+        }
 
+        public void printOrder() {
+            double total = 0.0;
+            System.out.println("-".repeat(20));
+            System.out.println("Your Order:");
+            System.out.println();
+            for (OrderItem orderItem : order) {
+               ProductForSale product = orderItem.productForSale();
+               product.printPricedLineItem(orderItem);
+               total += product.getSalesPrice(orderItem);
+            }
+            System.out.println();
+            System.out.println("Order Total: $" + total);
+            System.out.println("-".repeat(20));
+        }
 
 
 

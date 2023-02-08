@@ -17,11 +17,8 @@ public abstract class ProductForSale {
     }
 
     public final void printPricedLineItem(OrderItem orderItem) {
-        OrderItem item = orderItem;
         ProductForSale product = orderItem.productForSale();
-        System.out.println(product);
-        double price = getSalesPrice(item);
-        System.out.println("Order Details: " + orderItem.quantity() + " " + product.description);
+        System.out.printf("%d %s: $%s %n", orderItem.quantity(), product.description, product.getSalesPrice(orderItem));
     }
 
     public abstract void showDetails();
