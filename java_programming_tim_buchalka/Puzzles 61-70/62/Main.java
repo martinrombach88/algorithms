@@ -8,7 +8,7 @@ public class Main {
         Appliance silverCrest = new Appliance(180, "Silvercrest Mini Rice Cooker");
         Toy jigglypuff = new Toy(30, "Pokemon Jigglypuff Plush Doll");
         System.out.println("-".repeat(20));
-        
+
         //Prepare list for store
         ArrayList<ProductForSale> cProducts = new ArrayList<>(List.of(bladeRunner, silverCrest, jigglypuff));
         ArrayList<OrderItem> order = new ArrayList<>();
