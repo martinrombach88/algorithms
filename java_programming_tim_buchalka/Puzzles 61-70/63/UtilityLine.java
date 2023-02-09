@@ -1,14 +1,14 @@
-public class Building implements Mappable{
+public class UtilityLine implements Mappable{
     Type type;
     String name;
     Usage usage;
     Marker marker;
 
-    public Building(String name, Usage usage) {
-        this.type = type.POINT;
+    public UtilityLine(String name, Usage usage) {
+        this.type = Type.LINE;
         this.name = name;
         this.usage = usage;
-        this.marker = Marker.RED_STAR;
+        this.marker = Marker.GREEN_DOTTED;
     }
 
     public Type getType() {
@@ -52,6 +52,4 @@ public class Building implements Mappable{
 
         System.out.printf(JSON_PROPERTY, printProperties());
     }
-
-
 }
