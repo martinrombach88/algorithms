@@ -1,4 +1,4 @@
-public interface Mappable {
+interface Mappable {
     //Output is mock data for JSON geographical elements
     //Output:
     //"properties" : { "type" : "POINT", "label": "Sydney Town Hall (GOVERNMENT)", "marker": "RED STAR", "name": "Sydney Town Hall", "usage": "GOVERNMENT"}
@@ -10,16 +10,20 @@ public interface Mappable {
 
     //3 forced methods -
     //return a label, return a geometry type, return marker
-    String getLabel();
-    String getType();
-    String getMarker();
+    String getLabel(String name, Usage usage);
+
+    String getType(Type type);
     //These are passed to toJSON in a string built by the class.
+
+    String getMarker(Marker marker);
 
     //default method toJSON that prints type, label and marker.
     //Final output is a concatenated string
     default void toJSON(String string) {
         System.out.printf(JSON_PROPERTY, string);
     }
+
+    void toJSON();
 }
 
 //To create the markers and 'usage' sections, enums need to be made.

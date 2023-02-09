@@ -7,7 +7,7 @@ To Review:
 34 (use Andrew's recursive method / rebuild for loop from memory)
 58 (use intended swapping to explore reference types)
 59 (add validation to entry menu)
-61 (add validation to 'addCustomer' method)
+61 (add validation to 'addCustomer' method (optional))
 
 1 High Score - Arguments and If then 
 2 Positive/Negative - If then 
@@ -73,4 +73,4 @@ To Review:
 60 Itinerary - Linked Lists, List Iterator, Switch, Record, User Input via Scanner, Validation
 61 Bank - Classes, Autoboxing, Array Lists
 62 Store - OOP, Abstract Classes, Abstract/Concrete Methods
-63 Mappable - Interface, Constants, Forced Methods, Inheritance
+63 Mappable - Interface, Constants, Default Methods, Forced Methods, Inheritance

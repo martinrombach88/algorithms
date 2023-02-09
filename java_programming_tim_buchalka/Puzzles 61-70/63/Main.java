@@ -4,4 +4,6 @@ public class Main {
 
     Building house = new Building();
 
+    Building.toJSON();
+
 }
