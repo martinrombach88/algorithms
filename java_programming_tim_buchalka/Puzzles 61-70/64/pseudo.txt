@@ -28,10 +28,29 @@ Class LeagueTable {
     How will you sort those numbers?
     What will be done with an object once you know it's place in the list?
 
-    Options:
+
     Use an auto sorter to sort by rank
     Build a sorting algorithm based on algo concepts - best!
     Maybe you can do 2 or 3 sorting algorithms for this!
+
+    What the loop does:
+    for (index of currentTeam within teams) {
+
+        loop over the new array each time:-
+
+        for (index of newArrayList) {
+            if (newArrayList is empty) {
+                add this team to newArray
+            } else {
+                compare current team from teams
+                with current team of newArrayList
+                if bigger add one index before,
+                if smaller add after.
+            }
+        }
+    }
+
+    
 }
 
 Class Team {
