@@ -1,0 +1,32 @@
+PSEUDO CODE
+Class League Table is an ArrayList of teams.
+Make two leagues in the instances: a baseball league and a soccer league
+Player lists are an array property of the team class
+
+You need to use generics (T) to gain something from this exercise
+
+Class LeagueTable {
+    fields:
+    string name,
+    array list teams
+    (no enum - the teams in the generic param will define it)
+
+    methods:
+    add team (with generic type validation)
+
+    print table (sorts arraylist in order of wins):
+    for loop
+    rank is wins - losses.
+    for (i in teams) {
+        nested loop?
+
+    }
+}
+
+Class Team {
+    string name
+    ArrayList Players -> length should be in the constructor
+    int wins
+    int losses
+    int draws
+}
