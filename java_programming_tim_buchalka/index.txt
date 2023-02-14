@@ -2,6 +2,10 @@ Puzzle Index - Tim Buchalka - Java Programming Masterclass
 Puzzle 1-50 built in VS Code
 Puzzle 51+ built in IntelliJ IDEA
 
+To Finish:
+64 (Error on Comparable Interface Arguments -> Lesson is on Generics so will move on, review with Mentor)
+65 - Fibonacci using conditionals instead of recursion line + explanation
+
 To Review:
 
 34 (use Andrew's recursive method / rebuild for loop from memory)
@@ -74,4 +78,5 @@ To Review:
 61 Bank - Classes, Autoboxing, Array Lists
 62 Store - OOP, Abstract Classes, Abstract/Concrete Methods
 63 Mappable - Interface, Abstract/Default Methods, Formatted Strings
-64 Sports League - Generics, Manually Built Sorting Algorithms
+64 Sports League - Generics, Generic Parameters, Comparable Interface
+65 Series - Packages, Sum, Factorial, Fibonacci

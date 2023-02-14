@@ -30,6 +30,8 @@ Class LeagueTable {
 
 
     Use an auto sorter to sort by rank
+------------Rewatch video 3, build along, find sorting method--------
+
     Build a sorting algorithm based on algo concepts - best!
     Maybe you can do 2 or 3 sorting algorithms for this!
 
@@ -50,7 +52,7 @@ Class LeagueTable {
         }
     }
 
-    
+
 }
 
 Class Team {
