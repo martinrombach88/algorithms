@@ -15,10 +15,12 @@ public class Main {
         premiership.addTeam(manCity);
         premiership.addTeam(wolves);
 
+        brighton.printLineup();
+
         //KBO Baseball
         BaseballTeam lg = new BaseballTeam("LG Twins", new String[] {"Oh Ji-hwan (오지환)", "Hur Do-hwan (허도환)", "Kim Ki-yeon (김기연)"}, 87, 55);
         BaseballTeam ssg = new BaseballTeam("SSG Landers", new String[] {"CHO Sung Hun", "CHO Yo Han", "CHOI Min Jun",}, 88, 52);
-        BaseballTeam kiwoom = new BaseballTeam("SSG", new String[] {"CHO Sung Hun", "CHO Yo Han", "CHOI Min Jun",}, 88, 52);
+        BaseballTeam kiwoom = new BaseballTeam("Kiwoom Heroes", new String[] {"AN Woo Jin", "CHOI Won Tae", "HA Yeong Min",}, 80, 62);
         BaseballTeam kia = new BaseballTeam("KIA Tigers", new String[] {"CHOI Ji Min", "HAN Seung Hyuk", "IM Gi Yeong"}, 70, 73);
 
         LeagueTable<BaseballTeam> kbo = new LeagueTable<>("KBO League");
@@ -40,5 +42,6 @@ public class Main {
 
         //Print sport in ranking order (wins/losses);
         premiership.printTable();
+        kbo.printTable();
     }
 }

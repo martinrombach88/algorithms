@@ -3,6 +3,9 @@ Class League Table is an ArrayList of teams.
 Make two leagues in the instances: a baseball league and a soccer league
 Player lists are an array property of the team class
 
+Note: Tim implements a player class, rather than a player list.
+This allows the use of the Comparable class.
+
 You need to use generics (T) to gain something from this exercise
 
 Class LeagueTable {
@@ -34,6 +37,7 @@ Class LeagueTable {
 
     Build a sorting algorithm based on algo concepts - best!
     Maybe you can do 2 or 3 sorting algorithms for this!
+    Review when you've researched sorting algorithms later.
 
     What the loop does:
     for (index of currentTeam within teams) {
