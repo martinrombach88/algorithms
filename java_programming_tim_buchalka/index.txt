@@ -8,7 +8,7 @@ To Review:
 58 use intended swapping to explore reference types
 59 add validation to entry menu
 61 add validation to 'addCustomer' method (optional)
-64 manually add a sorting algorithm
+64 manually implement sort
 65 manually implement fibonacci without recursion
 
 1 High Score - Arguments and If then 
