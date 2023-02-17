@@ -1,0 +1,21 @@
+"Implement the command() method in the Main class to allow players to type full words, or phrases, then move to the correct location based upon their input.
+
+The player should be able to type commands such as "Go West", "run South", "I need to Quit this game" or just "East" and the program will move to the appropriate location if there is one.
+
+The console should display its current location, then it should prompt the user with: "Available exits are ", and its available exits."
+
+PSEUDO
+
+The directions are strings given to exit() in the Location Class. The user can type one of these strings to exit.
+To add more commands, you would need a collection of some sort to contain them.
+
+westExits = new List/Set/Map {"W", West, Go West, Run West, Walk West}
+
+private final Map<String, Integer> exits;
+becomes
+private final Map<String[] / ArrayList, Integer> exits;
+
+
+locations.get(1).addExit("W", 2);
+becomes
+locations.get(1).addExit(westArray, 2);

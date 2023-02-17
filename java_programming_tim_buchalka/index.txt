@@ -77,4 +77,6 @@ To Review:
 62 Store - OOP, Abstract Classes, Abstract/Concrete Methods
 63 Mappable - Interface, Abstract/Default Methods, Formatted Strings
 64 Sports League - Generics, Comparable
-65 Series - Packages, Sum, Factorial, Fibonacci
+65 Series - Packages, For Loops
+66 Times Tables/All Variables X - Scope
+67 Adventure Game - Split Method, Refactoring, Collections
