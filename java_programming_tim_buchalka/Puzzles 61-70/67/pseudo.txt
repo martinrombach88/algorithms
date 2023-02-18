@@ -9,13 +9,7 @@ PSEUDO
 The directions are strings given to exit() in the Location Class. The user can type one of these strings to exit.
 To add more commands, you would need a collection of some sort to contain them.
 
-westExits = new List/Set/Map {"W", West, Go West, Run West, Walk West}
+String[] exitNames = {"West", "East", "South", "North"};
+When you need the letter, do exitNames[i].split(), then retrieve 0 from array that is built, if (0 is direction) go in direction
+For other strings, you can use if (string is "Go/Walk/Run " + exitNames[i] == userinput), go that direction
 
-private final Map<String, Integer> exits;
-becomes
-private final Map<String[] / ArrayList, Integer> exits;
-
-
-locations.get(1).addExit("W", 2);
-becomes
-locations.get(1).addExit(westArray, 2);

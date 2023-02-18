@@ -79,4 +79,4 @@ To Review:
 64 Sports League - Generics, Comparable
 65 Series - Packages, For Loops
 66 Times Tables/All Variables X - Scope
-67 Adventure Game - Split Method, Refactoring, Collections
+67 Adventure Game - User input, Collections, While and For Loops
