@@ -8,8 +8,6 @@ public class Main {
     public static void main(String[] args) {
         command();
     }
-    //PSEUDO
-    //Contain the scanner and while loop in the command method
 
     public static void command() {
         final String[] locationStrings = {"You are sitting in front of a computer learning Java", "You are standing at the end of a road before a small brick building", "You are at the top of a hill", "You are inside a building, a well house for a small spring", "You are in a valley beside a stream", "You are in the forest"};
@@ -56,6 +54,8 @@ public class Main {
             System.out.println();
 
             String direction = scanner.nextLine().toUpperCase();
+
+            //Here we check for variations on the word (Go north, run south etc)
             if (direction.length() > 1) {
                 String[] words = direction.split(" ");
                 for(String word: words) {
@@ -64,8 +64,7 @@ public class Main {
                     }
                 }
             }
-            //Here your code needs to look at the vocabulary set.
-            //How do you do that?
+
 
 
             for (String exit : exits.keySet()) {
