@@ -1,4 +1,4 @@
-"Implement the command() method in the Main class to allow players to type full words, or phrases, then move to the correct location based upon their input.
+"Implement the command() method in the Main1 class to allow players to type full words, or phrases, then move to the correct location based upon their input.
 
 The player should be able to type commands such as "Go West", "run South", "I need to Quit this game" or just "East" and the program will move to the appropriate location if there is one.
 
