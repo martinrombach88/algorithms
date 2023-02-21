@@ -1,0 +1,6 @@
+Puzzles solved in intelliJ
+
+1. Digits from 0 to 9 backwards - For loop
+2. Chef - String literals
+3. Sum of Digits - User Input, For loop
+4. Difference of Times - User Input
