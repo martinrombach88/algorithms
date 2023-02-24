@@ -4,10 +4,13 @@ Puzzles solved in intelliJ
 2. Chef - String literals
 3. Sum of Digits - User Input, For loop
 4. Difference of Times - User Input
-5. Incrementation 1, 2 - ++n vs n++ (infix/postfix), incrementation
+5. What is the Result - Incrementation, ++n vs n++ (Infix / Postfix), 
 6. Divisible - Modulo, For Loop, User Input
 7. Collatz conjecture - While Loop
-8. 
+8. Largest Element - While Loop, Ternary
+9. Calculator - Switch
+10. Kate's Math Function - Decomposition
 
 Sample Code Bonus:
-Bonus 1 - Nested loops that returns times tables
+Bonus 1 - Nested loops example
+Bonus 2 - Continue in nested loop example

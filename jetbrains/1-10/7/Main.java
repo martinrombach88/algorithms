@@ -10,6 +10,8 @@ class Main {
             if (n % 2 == 0) {
                 n /= 2;
             } else {
+                // This line has been flagged for using a 'magic number'
+                // Apparently this is bad practice -> how would you solve it?
                 n *= 3;
                 n++;
             }
