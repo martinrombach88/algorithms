@@ -10,6 +10,7 @@ Puzzles solved in intelliJ
 8. Largest Element - While Loop, Ternary
 9. Calculator - Switch
 10. Kate's Math Function - Decomposition
+11. Boxes - Comparing 2 Arrays
 
 Sample Code Bonus:
 Bonus 1 - Nested loops example

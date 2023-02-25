@@ -1,0 +1,26 @@
+Sample 1
+1 2 3
+5 6 4
+Output box 1 < box 2
+Sort:
+What does this achieve?
+1 2 3
+4 5 6
+
+
+Sample 2
+2 9 4
+3 8 1
+Output Box 1 > Box 2
+Sort:
+
+2 4 9
+1 3 8
+
+Sample 3
+1 3 7
+2 8 3
+Output: Incompatible
+Sort:
+1 3 7
+2 3 8
