@@ -5,13 +5,16 @@ Puzzles solved in intelliJ
 3. Sum of Digits - User Input, For loop
 4. Difference of Times - User Input
 5. What is the Result - Incrementation, ++n vs n++ (Infix / Postfix), 
-6. Divisible - Modulo, For Loop, User Input
+6. Divisible - Modulo, For Loop
 7. Collatz conjecture - While Loop
 8. Largest Element - While Loop, Ternary
 9. Calculator - Switch
 10. Kate's Math Function - Decomposition
 11. Boxes - Arrays, For Loop
 12. Never Next To - Arrays, For Loop
+13. Extract Substring - String Methods
+14. Circle - Classes, Methods
+15. Big Integer - Calling Packages
 
 Sample Code Bonus:
 Bonus 1 - Nested loops example
