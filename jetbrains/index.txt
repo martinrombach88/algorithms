@@ -15,6 +15,12 @@ Puzzles solved in intelliJ
 13. Extract Substring - String Methods
 14. Circle - Classes, Methods
 15. Big Integer - Calling Packages
+16. User - Constructors
+17. Bank Account - Inheritance
+18. Legal Supers - Super
+19. Class Hierarchy - Super
+20. The final characters - Super
+21. Cookie - Constructor Quiz
 
 Sample Code Bonus:
 Bonus 1 - Nested loops example

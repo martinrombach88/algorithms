@@ -1,0 +1,34 @@
+In a Java program, you see the following code that successfully 
+compiles and executes.
+
+Cookie cookie = new Cookie("chocolate chips"); 
+Select all true statements.
+
+Select one or more options from the list
+
+OPTION: The class Cookie has a constructor with one formal 
+parameter of the type String.
+
+True -> A string is passed to new Cookie, if what we see compiles,
+it must accept 1 string as a param.
+
+OPTION: The object cookie must have a field filled by the value "chocolate chips"
+False -> There is no indication that the string must be strictly 
+"chocolate chips" it can be anything.
+
+OPTION: The class Cookie has a constructor without parameters.
+False -> See below
+
+OPTION: The class Cookie has the default constructor.
+False -> See below
+
+If we write our own constructor (with one or more parameters) 
+we "lose" the default no-args constructor that java automatically 
+generated for us hence, to create an instance of that class we must 
+use the constructor we just created. 
+If we try to use a no-args constructor we will get compile-error.
+If we pass arguments to the constructor we free to ignore that argument.
+
+OPTION: The class Cookie has a constructor with the name Cookie.
+True -> we can see the constructor is named Cookie.
+Constructors always have the same name as the original class.

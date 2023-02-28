@@ -17,17 +17,12 @@ class Main {
         int m = Integer.parseInt(nAndM[1]);
         boolean neverNextTo = true;
 
-        for (int i = 0; i < length - 1; i++) {
-            if(Integer.parseInt(elems[i]) == n) {
-                if (Integer.parseInt(elems[i + 1]) == m) {
-                    neverNextTo = false;
-                }
-            } else if (Integer.parseInt(elems[i]) == m) {
-                if (Integer.parseInt(elems[i + 1]) == n) {
-                    neverNextTo = false;
-                }
-            }
 
+        for (int i = 0; i < length - 1; i++) {
+            if (Integer.parseInt(elems[i]) == n && Integer.parseInt(elems[i + 1]) == m || 
+                Integer.parseInt(elems[i]) == m && Integer.parseInt(elems[i + 1]) == n) {
+                neverNextTo = false;
+            } 
         }
         System.out.println(neverNextTo);
     }
