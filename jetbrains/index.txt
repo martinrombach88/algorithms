@@ -20,7 +20,10 @@ Puzzles solved in intelliJ
 18. Legal Supers - Super
 19. Class Hierarchy - Super
 20. The final characters - Super
-21. Cookie - Constructor Quiz
+21. Exception - Exceptions
+22. Cookie - Constructor Quiz
+23. Turn a Matrix - Matrix, Nested For Loops
+24. Swap the Columns - Matrix, Nested For Loops
 
 Sample Code Bonus:
 Bonus 1 - Nested loops example
