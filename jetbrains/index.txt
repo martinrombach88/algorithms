@@ -26,6 +26,7 @@ Puzzles solved in intelliJ
 24. Swap the Columns - Matrix, Nested For Loops
 25. Find 'the' - IndexOf String
 26. Parse URL - Strings, Replace Method, Split Method
+27. Longest word - For Loop
 
 
 Sample Code Bonus:

@@ -8,7 +8,7 @@ Collection:
 
 Java
 
-1. Jet Brains - Java Backend Developer: 27 puzzles
+1. Jet Brains - Java Backend Developer: 28 puzzles
 2. Udemy - Java 'Masterclass': 67 puzzles
 
 Python
