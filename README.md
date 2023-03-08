@@ -10,6 +10,7 @@ Java
 
 1. Jet Brains - Java Backend Developer: 28 puzzles
 2. Udemy - Java 'Masterclass': 67 puzzles
+3. Leet Code: 1 puzzle
 
 Python
 
@@ -17,5 +18,5 @@ Python
 
 Javascript
 
-1. LEET Code (1 puzzle, Javascript)
-2. Misc (3 puzzles, Javascript)
+1. LEET Code (1 puzzle)
+2. Misc (3 puzzles)
