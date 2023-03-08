@@ -1,12 +1,4 @@
-2+2+
-36 / 36 Prerequisites
-The while and do-while loops
-Branching statements
-Switch statement
-Units of information
-Sizes and ranges
-Join a study group for the project Smart Calculator (Java)
-Discuss your current project with fellow learners and help each other.
+Calculator Part 2 - 2 + 2
 Description
 It is high time to improve the previous version of the calculator. What if we have many pairs of numbers, the sum of which we need to find? It will be very inconvenient to run the program every time. So then let's add a loop to continuously calculate the sum of two numbers. Be sure to have a safeword to break the loop. Also, It would be nice to think through situations where users enter only one number or do not enter numbers at all.
 

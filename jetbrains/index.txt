@@ -27,6 +27,8 @@ Puzzles solved in intelliJ
 25. Find 'the' - IndexOf String
 26. Parse URL - Strings, Replace Method, Split Method
 27. Longest word - For Loop
+28. Calculator Part 2 - While Loop
+29. Calculator Part 3 - Switch, Looping Addition
 
 
 Sample Code Bonus:
