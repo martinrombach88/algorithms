@@ -29,6 +29,7 @@ Puzzles solved in intelliJ
 27. Longest word - For Loop
 28. Calculator Part 2 - While Loop
 29. Calculator Part 3 - Switch, Looping Addition
+30. Change Identities - Reassignment within classes
 
 
 Sample Code Bonus:
