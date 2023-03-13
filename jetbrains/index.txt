@@ -1,4 +1,4 @@
-Puzzles solved in intelliJ
+Puzzles solved in intelliJ and VS Code
 
 1. Digits from 0 to 9 backwards - For loop
 2. Chef - String literals
@@ -30,7 +30,10 @@ Puzzles solved in intelliJ
 28. Calculator Part 2 - While Loop
 29. Calculator Part 3 - Switch, Looping Addition
 30. Change Identities - Reassignment within classes
-
+31. UUID Match - Regex
+32. Match the Regex - Regex 
+33. Four Strings - Regex
+34. Match the Regex 2 - Regex
 
 Sample Code Bonus:
 Bonus 1 - Nested loops example
