@@ -34,6 +34,8 @@ Puzzles solved in intelliJ and VS Code
 32. Match the Regex - Regex 
 33. Four Strings - Regex
 34. Match the Regex 2 - Regex
+35. Check the Date - Regex Date Validation
+36. IP Address - Regex IP Address Validation
 
 Sample Code Bonus:
 Bonus 1 - Nested loops example
