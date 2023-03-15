@@ -39,7 +39,7 @@ Puzzles solved in intelliJ and VS Code
 37. Check the Clock Time - Regex, 24:00 Validation
 38. Safe Password - Regex Contains Num, UpperCase, Lowercase
 39. Credit Cards - Credit Card Regex
-40. Vehicle Registration Number - Regex
+40. Vehicle Registration Number - Regex Validation
 
 Sample Code Bonus:
 Bonus 1 - Nested loops example
