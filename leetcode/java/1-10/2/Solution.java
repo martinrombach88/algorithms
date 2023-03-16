@@ -12,9 +12,11 @@ public class Solution {
         if (x >= 0) {
             String strX = Integer.toString(x);
             String revX = "";
+            
             for (int i = 0; i < strX.length(); i++) {
                 revX = strX.charAt(i) + revX;
             }
+
             result = strX.equals(revX) ? true : false;
         } else {
             result = false;

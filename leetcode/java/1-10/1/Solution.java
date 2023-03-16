@@ -43,17 +43,4 @@ class Solution {
         return result;
     }
 
-    //
-    // if (nums[i - 1] + nums[i] == target) {
-    // result[0] = i - 1;
-    // result[1] = i;
-    // break;
-    // }
-    // } else {
-    // if (nums[i] + nums[i + 1] == target) {
-    // result[0] = i;
-    // result[1] = i + 1;
-    // break;
-    // }
-    // }
 }
