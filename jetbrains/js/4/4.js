@@ -12,21 +12,15 @@
     So in Python you have the ord function for returning unicodes
 */
 
-const caeserCypher = function (line) {
+const caeserCypher = function () {
+  let line = prompt();
   encodedLine = [];
 
   for (let i = 0; i < line.length; i++) {
     let n = line.charCodeAt(i);
     encodedLine.push(String.fromCharCode(n + 1));
   }
-
-  return encodedLine.join("");
+  console.log(encodedLine.join(""));
 };
 
-//How do you convert the char into unicode?
-
-//You need this to convert the number back into a char
-// let text = String.fromCharCode(72, 69, 76, 76, 79);
-
-// console.log(text);
-console.log(caeserCypher("hello"));
+caeserCypher();

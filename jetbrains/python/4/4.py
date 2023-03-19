@@ -17,14 +17,14 @@
 # PSEUDO 
 # Using the ord function, return the unicode of the char. Then use chr() to convert back into a unicode chr
 
-def caesarCipher(line):
-    # print(words)
+def caesarCipher():
+    line = input()
     encodedLine = ""
 
     for c in line:
         num = ord(c)
         encodedLine += chr(num + 1)
     
-    return encodedLine
+    print(encodedLine)
         
-print(caesarCipher("hello"))  
+caesarCipher()

@@ -8,12 +8,12 @@ Collection:
 
 Python
 
-1. Jet Brains - Python Core: 4 puzzles
+1. Jet Brains - Python Core: 5 puzzles
 2. Advent of Code 2022 (5 puzzles, Python)
 
 Javascript
 
-1. Jet Brains - Python Core, redone in Javascript: 1 puzzle
+1. Jet Brains - Python Core, redone in Javascript: 2 puzzles
 2. LEET Code (1 puzzle)
 3. Misc (3 puzzles)
 
