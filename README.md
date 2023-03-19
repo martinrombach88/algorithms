@@ -6,17 +6,19 @@ Each folder contains an index with puzzle names and main concepts.
 
 Collection:
 
-Java
-
-1. Jet Brains - Java Backend Developer: 28 puzzles
-2. Udemy - Java 'Masterclass': 67 puzzles
-3. Leet Code: 1 puzzle
-
 Python
 
-1. Advent of Code 2022 (5 puzzles, Python)
+1. Jet Brains - Python Core: 4 puzzles
+2. Advent of Code 2022 (5 puzzles, Python)
 
 Javascript
 
-1. LEET Code (1 puzzle)
-2. Misc (3 puzzles)
+1. Jet Brains - Python Core, redone in Javascript: 1 puzzle
+2. LEET Code (1 puzzle)
+3. Misc (3 puzzles)
+
+Java
+
+1. Jet Brains - Java Backend Developer: 42 puzzles
+2. Udemy - Java 'Masterclass': 67 puzzles
+3. Leet Code: 2 puzzles
