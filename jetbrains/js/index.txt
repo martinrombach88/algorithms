@@ -1,0 +1,10 @@
+While Jetbrains does have a frontend course, these puzzles are from
+repeats of challenges from the Java/Python courses.
+
+Code written in VS Code.
+
+1. Credit Cards - Credit Card Regex
+2.
+3. 
+4. Caeser Cypher - Char codes, String Manipulation 
+5. Unicode Sum - Char to Int
