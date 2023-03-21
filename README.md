@@ -13,7 +13,7 @@ Python
 
 Javascript
 
-1. Jet Brains - Python Core, redone in Javascript: 2 puzzles
+1. Jet Brains - Python Core, redone in Javascript: 3 puzzles
 2. LEET Code (1 puzzle)
 3. Misc (3 puzzles)
 
