@@ -31,7 +31,7 @@ class PaginationHelper {
 
   pageIndex(itemIndex) {
     const collectionCopy = this.collection;
-    if ((this.paginArray.length = 0)) {
+    if (this.paginArray.length === 0) {
       while (collectionCopy.length != 0) {
         this.paginArray.push(collectionCopy.splice(0, this.itemsPerPage));
       }
@@ -47,16 +47,10 @@ const example = new PaginationHelper([1, 2, 3, 4, 5, 6], 4);
 
 var helper = new PaginationHelper(["a", "b", "c", "d", "e", "f"], 4);
 console.log(helper.pageCount(), "should ==2"); //should == 2
-console.log(helper.itemCount(), "should == 6");
+console.log(helper.itemCount(), "should ==6");
 console.log(helper.pageItemCount(0), "should ==4"); //should == 4
 console.log(helper.pageItemCount(1), "should ==2"); // last page - should == 2
 console.log(helper.pageItemCount(2), "should ==-1"); // should == -1 since the page is invalid
-
-// var helper2 = new PaginationHelper(
-//   ["a", "b", "c", "d", "e", "f", "a", "b", "c", "d", "e", "f"],
-//   4
-// );
-// console.log(helper2.pageCount());
 
 // // pageIndex takes an item index and returns the page that it belongs on
 // helper.pageIndex(5); //should == 1 (zero based index)
