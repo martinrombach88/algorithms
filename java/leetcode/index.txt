@@ -1,6 +1,0 @@
-Java
-1. Two Sum - Comparison, Nested Loops
-2. Palindrome - Equals Operator, Reversed String
-
-Javascript
-1. Good Pairs - Nested Loops
