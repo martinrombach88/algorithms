@@ -21,4 +21,4 @@ function binarySearch(array, target) {
       
   }
   
-console.log(binarySearch([0, 1, 21, 33, 45,45, 61, 71,72,73], 33)); //3
+console.log(33, 'is at index', binarySearch([0, 1, 21, 33, 45,45, 61, 71,72,73], 33)); //3
