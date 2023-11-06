@@ -5,7 +5,16 @@ describe("Min Max Stack", () => {
     const stack = new minMaxStack()
 test('ping returns pong', () => {
     expect(stack.ping()).toBe("pong")
-})})
+})
+
+//https://jestjs.io/docs/expect
+test('push and pop 5', () => {
+    stack.push(5)
+    console.log(stack)
+    expect(stack.pop()).toBe({"max": 5, "min": 5})
+})
+
+})
 
 /*
 

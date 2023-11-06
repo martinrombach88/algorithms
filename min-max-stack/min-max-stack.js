@@ -29,10 +29,10 @@ module.exports = class MinMaxStack {
         //set new values to newMinMax stack
         newMinMax['min'] = Math.min(lastMinMax["min"], number)
         newMinMax['max'] = Math.max(lastMinMax["max"], number)
-  
+    }
         this.stack.push(newMinMax)
         this.minMaxStack.push(newMinMax)
-      }
+      
     }
     getMin() { 
       //return min value of last object
