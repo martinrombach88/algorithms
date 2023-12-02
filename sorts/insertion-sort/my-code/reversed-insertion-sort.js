@@ -3,15 +3,14 @@ function reversedInsertionSort(array) {
     var j = i + 1;
     var key = array[i];
     while (array[j] > key && j < array.length) {
-      array[j - 1] = array[j];
-      array[j] = key;
+      //your condition turns false during 2 vs 5.
+      //
     }
-    key = array[j - 1];
   }
 
   return array;
 }
-
+// cd sorts/insertion-sort/my-code
 function test(myArray) {
   reversedInsertionSort(myArray);
   console.log(myArray);
