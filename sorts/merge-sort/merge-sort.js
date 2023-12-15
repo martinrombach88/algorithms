@@ -1,6 +1,6 @@
-const merge = () {
-    
-}
+// const merge = () {
+
+// }
 
 function test() {
   let myArray1 = [1, 3, 7, 8];
