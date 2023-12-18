@@ -1,4 +1,4 @@
-module.exports = class MaxHeap {
+export default class MaxHeap {
   constructor() {
     this.values = [];
   }
@@ -127,4 +127,4 @@ module.exports = class MaxHeap {
       i++;
     }
   }
-};
+}
