@@ -3,6 +3,9 @@ class Node {
   //you can use it to call 'this' without actually declaring each field
   constructor(value) {
     this.value = value;
+
+    //you correctly assumed these would be empty, but again,
+    //implicit this in javascript classes, not fields like in java
     this.left = null;
     this.right = null;
   }
@@ -10,6 +13,8 @@ class Node {
 
 class BST {
   constructor() {
+    //default empty constructor, again the javascript syntax is just
+    //to use the constructor method.
     this.root = null;
   }
 }
