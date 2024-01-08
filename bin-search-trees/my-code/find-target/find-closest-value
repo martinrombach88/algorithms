@@ -1,0 +1,48 @@
+function findClosestValueInBst(tree, target) {
+  //make an array of the tree in the correct order;
+  let arr = inOrderArray(tree);
+  console.log(arr);
+  //init arr 0 as the initial comparison with target
+  // let closest = arr[0];
+
+  for (let i = 0; i < arr.length; i++) {
+    //if the absolute difference i and target is less than the difference between closest and target, update closest
+    if (Math.abs(arr[i] - target) < Math.abs(closest - target)) {
+      closest = arr[i];
+    }
+
+    return closest;
+  }
+}
+
+function inOrderArray(tree) {
+  if (tree == null) return;
+  let arr = [];
+  inOrderArray(tree.left);
+  arr.push(tree.value);
+  inOrderArray(tree.right);
+}
+
+// This is the class of the input tree. Do not edit.
+const tree = {
+  val: 2,
+  left: {
+    val: 1,
+    left: null,
+    right: null,
+  },
+  right: {
+    val: 3,
+    left: null,
+    right: {
+      val: 4,
+      left: null,
+      right: null,
+    },
+  },
+};
+
+console.log(findClosestValueInBst(tree, 5)); //4
+
+// Do not edit the line below.
+exports.findClosestValueInBst = findClosestValueInBst;
