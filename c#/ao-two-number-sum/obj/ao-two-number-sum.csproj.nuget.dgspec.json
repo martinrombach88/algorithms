@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/martin/Code/algorithms/ao-two-number-sum/ao-two-number-sum.csproj": {}
+    "/Users/martin/Code/algorithms/arrays/ao-two-number-sum/ao-two-number-sum.csproj": {}
   },
   "projects": {
-    "/Users/martin/Code/algorithms/ao-two-number-sum/ao-two-number-sum.csproj": {
+    "/Users/martin/Code/algorithms/arrays/ao-two-number-sum/ao-two-number-sum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/martin/Code/algorithms/ao-two-number-sum/ao-two-number-sum.csproj",
+        "projectUniqueName": "/Users/martin/Code/algorithms/arrays/ao-two-number-sum/ao-two-number-sum.csproj",
         "projectName": "ao-two-number-sum",
-        "projectPath": "/Users/martin/Code/algorithms/ao-two-number-sum/ao-two-number-sum.csproj",
+        "projectPath": "/Users/martin/Code/algorithms/arrays/ao-two-number-sum/ao-two-number-sum.csproj",
         "packagesPath": "/Users/martin/.nuget/packages/",
-        "outputPath": "/Users/martin/Code/algorithms/ao-two-number-sum/obj/",
+        "outputPath": "/Users/martin/Code/algorithms/arrays/ao-two-number-sum/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/martin/.nuget/NuGet/NuGet.Config"

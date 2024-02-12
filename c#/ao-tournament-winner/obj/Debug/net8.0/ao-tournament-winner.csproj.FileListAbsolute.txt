@@ -1,0 +1,15 @@
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/bin/Debug/net8.0/ao-tournament-winner
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/bin/Debug/net8.0/ao-tournament-winner.deps.json
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/bin/Debug/net8.0/ao-tournament-winner.runtimeconfig.json
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/bin/Debug/net8.0/ao-tournament-winner.dll
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/bin/Debug/net8.0/ao-tournament-winner.pdb
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/obj/Debug/net8.0/ao-tournament-winner.GeneratedMSBuildEditorConfig.editorconfig
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/obj/Debug/net8.0/ao-tournament-winner.AssemblyInfoInputs.cache
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/obj/Debug/net8.0/ao-tournament-winner.AssemblyInfo.cs
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/obj/Debug/net8.0/ao-tournament-winner.csproj.CoreCompileInputs.cache
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/obj/Debug/net8.0/ao-tournament-winner.sourcelink.json
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/obj/Debug/net8.0/ao-tournament-winner.dll
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/obj/Debug/net8.0/refint/ao-tournament-winner.dll
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/obj/Debug/net8.0/ao-tournament-winner.pdb
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/obj/Debug/net8.0/ao-tournament-winner.genruntimeconfig.cache
+/Users/martin/Code/algorithms/c#/ao-tournament-winner/obj/Debug/net8.0/ref/ao-tournament-winner.dll
