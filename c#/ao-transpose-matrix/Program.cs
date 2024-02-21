@@ -30,10 +30,13 @@ static void TransposeMatrix(int[,] matrix) {
     //return rm;
   }
 
-int[,] matrix = new int[
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-];
+int[] line1 = {1, 2, 3};
+int[] line2 = {4, 5, 6};
+int[] line3 = {7, 8, 9};
 
-  TransposeMatrix(matrix);
+// int[,] matrix = new int[4,4];
+// matrix[0] = line1;
+// matrix[1] = line2;
+// matrix[2] = line3;
+// TransposeMatrix(matrix);
+
