@@ -1,0 +1,15 @@
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/obj/Debug/net8.0/ae-three-number-sum-two-pointers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/obj/Debug/net8.0/ae-three-number-sum-two-pointers.AssemblyInfoInputs.cache
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/obj/Debug/net8.0/ae-three-number-sum-two-pointers.AssemblyInfo.cs
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/obj/Debug/net8.0/ae-three-number-sum-two-pointers.csproj.CoreCompileInputs.cache
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/obj/Debug/net8.0/ae-three-number-sum-two-pointers.sourcelink.json
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/bin/Debug/net8.0/ae-three-number-sum-two-pointers
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/bin/Debug/net8.0/ae-three-number-sum-two-pointers.deps.json
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/bin/Debug/net8.0/ae-three-number-sum-two-pointers.runtimeconfig.json
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/bin/Debug/net8.0/ae-three-number-sum-two-pointers.dll
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/bin/Debug/net8.0/ae-three-number-sum-two-pointers.pdb
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/obj/Debug/net8.0/ae-three-number-sum-two-pointers.dll
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/obj/Debug/net8.0/refint/ae-three-number-sum-two-pointers.dll
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/obj/Debug/net8.0/ae-three-number-sum-two-pointers.pdb
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/obj/Debug/net8.0/ae-three-number-sum-two-pointers.genruntimeconfig.cache
+/Users/martin/Code/algorithms/ae-three-number-sum-two-pointers/obj/Debug/net8.0/ref/ae-three-number-sum-two-pointers.dll
