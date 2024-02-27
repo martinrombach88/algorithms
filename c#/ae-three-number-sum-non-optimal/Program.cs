@@ -1,22 +1,16 @@
-﻿
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
 //solution 1 -> three for loops (he says at the start you can, so try)
 //non optimal and terrible big 0 but does work
 
 //note -> you can sort the whole array instead of the list with Array.Sort(array)
-
-
-  static List<int[]> ThreeNumberSum(int[] array, int targetSum) {
-    // Write your code here.
+static List<int[]> ThreeNumberSum(int[] array, int targetSum) {
     //sort the array
     //loop one = number 1, compare against number 2
     //loop two = number 2, compare against number 3
-    //for i, j, k -> if i + j + k = target sum, log it 
-
+        //for i, j, k -> if i + j + k = target sum, log it 
+    Array.Sort(array);
     List<int[]> sums = new List<int[]>();
 
     for (int i = 0; i < array.Length; i++) {
@@ -50,15 +44,11 @@ using System.Linq;
             }
         }
      }
-    //sort sums then return ß
-    //another loop could do it -> 
-    //for each array in list
-    //if array 0 < array 0 + 1, add to final list
-    List <int[]> sortedSums = new List <int[]>();
-
     
     return sums;
   }
+
+
 
 //expected [[-8 2 6] [-8, 3, 5], [-6, 1, 5]]
 int[] array = {12, 3, 1, 2, -6, 5, -8, 6};

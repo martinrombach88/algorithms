@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ae-three-number-sum-non-optimal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bab21302f7a404f33a9dae9906591a00d107dee7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8206e1cbb6c9e542a430fc49436387acc86bb67c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ae-three-number-sum-non-optimal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ae-three-number-sum-non-optimal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
