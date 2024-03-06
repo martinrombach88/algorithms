@@ -1,0 +1,15 @@
+/Users/martin/Code/algorithms/ae-move-element-to-end/obj/Debug/net8.0/ae-move-element-to-end.GeneratedMSBuildEditorConfig.editorconfig
+/Users/martin/Code/algorithms/ae-move-element-to-end/obj/Debug/net8.0/ae-move-element-to-end.AssemblyInfoInputs.cache
+/Users/martin/Code/algorithms/ae-move-element-to-end/obj/Debug/net8.0/ae-move-element-to-end.AssemblyInfo.cs
+/Users/martin/Code/algorithms/ae-move-element-to-end/obj/Debug/net8.0/ae-move-element-to-end.csproj.CoreCompileInputs.cache
+/Users/martin/Code/algorithms/ae-move-element-to-end/obj/Debug/net8.0/ae-move-element-to-end.sourcelink.json
+/Users/martin/Code/algorithms/ae-move-element-to-end/bin/Debug/net8.0/ae-move-element-to-end
+/Users/martin/Code/algorithms/ae-move-element-to-end/bin/Debug/net8.0/ae-move-element-to-end.deps.json
+/Users/martin/Code/algorithms/ae-move-element-to-end/bin/Debug/net8.0/ae-move-element-to-end.runtimeconfig.json
+/Users/martin/Code/algorithms/ae-move-element-to-end/bin/Debug/net8.0/ae-move-element-to-end.dll
+/Users/martin/Code/algorithms/ae-move-element-to-end/bin/Debug/net8.0/ae-move-element-to-end.pdb
+/Users/martin/Code/algorithms/ae-move-element-to-end/obj/Debug/net8.0/ae-move-element-to-end.dll
+/Users/martin/Code/algorithms/ae-move-element-to-end/obj/Debug/net8.0/refint/ae-move-element-to-end.dll
+/Users/martin/Code/algorithms/ae-move-element-to-end/obj/Debug/net8.0/ae-move-element-to-end.pdb
+/Users/martin/Code/algorithms/ae-move-element-to-end/obj/Debug/net8.0/ae-move-element-to-end.genruntimeconfig.cache
+/Users/martin/Code/algorithms/ae-move-element-to-end/obj/Debug/net8.0/ref/ae-move-element-to-end.dll

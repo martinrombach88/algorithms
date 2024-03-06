@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ae-move-element-to-end/1.0.0": {
+        "runtime": {
+          "ae-move-element-to-end.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ae-move-element-to-end/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
