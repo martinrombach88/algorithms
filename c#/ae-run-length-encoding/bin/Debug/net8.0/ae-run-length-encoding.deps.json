@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ae-run-length-encoding/1.0.0": {
+        "runtime": {
+          "ae-run-length-encoding.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ae-run-length-encoding/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

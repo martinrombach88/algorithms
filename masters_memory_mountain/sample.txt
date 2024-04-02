@@ -1,0 +1,104 @@
+Computer systems : a programmer's perspective by Bryant, Randal E
+676 Chapter 6 The Memory Hierarchy
+code/mem/mountain/mountain. c
+1 long data[MAXELEMS]; /* The global array we'll be traversing */
+2
+3 /* test - Iterate over first "elems" elements of array "data" with
+4 * stride of "stride", using 4 x 4 loop unrolling.
+5 */
+6 int test(int elems, int stride)
+7 {
+long i, sx2 = stride*2, sx3 = stride*3,
+long accO = 0, accl = 0, acc2 = 0, acc3
+10 long length = elems;
+11 long limit = length - sx4;
+12
+13 /* Combine 4 elements at a time */
+14 for (i = 0; i < limit; i += sx4) {
+15 accO = accO + datafi];
+16 accl = accl + data[i+stride];
+17 acc2 = acc2 + data[i+sx2];
+18 acc3 = acc3 + data[i+sx3];
+19 }
+20
+21 /* Finish any remaining elements */
+22 for (; i < length; i++) {
+23 accO = accO + data[i];
+24 }
+25 return ((accO + accl)+ (acc2 + acc3));
+26 >
+27
+28 /* run - Run test(elems, stride) and return
+29 * "size" is in bytes, "stride" is in
+30 * CPU clock frequency in Mhz.
+31 */
+32 double run(int size, int stride, double Mhz)
+33 {
+34 double cycles;
+35 int elems = size / sizeof(double);
+36
+37 test(elems, stride);
+38 cycles = fcyc2(test, elems, stride, 0);
+39 return (size / stride) / (cycles / Mhz);
+40 }
+sx4 = stride*4;
+= 0 ;
+read throughput (MB/s).
+array elements, and Mhz is
+/* Warm up the cache */
+/* Call test(elems,stride) */
+/* Convert cycles to MB/s */
+---------------------- code/mem/mountain/mountain. c
+Figure 6.40 Functions that measure and compute read throughput. We can generate a memory mountain
+for a particular computer by calling the run function with different values of s iz e (which corresponds to
+temporal locality) and s t r i d e (which corresponds to spatial locality).Supplied by the British Library 07 Nov 2019, 13:26 (GMT)
+Page
+3
+(3 of 6)
+long data[MAXELEMS]; /* The global array we'll be traversing */
+2
+3 /* test - Iterate over first "elems" elements of array "data" with
+4 * stride of "stride", using 4 x 4 loop unrolling.
+5 */
+6 int test(int elems, int stride)
+7 {
+long i, sx2 = stride*2, sx3 = stride*3,
+long accO = 0, accl = 0, acc2 = 0, acc3
+10 long length = elems;
+11 long limit = length - sx4;
+12
+13 /* Combine 4 elements at a time */
+14 for (i = 0; i < limit; i += sx4) {
+15 accO = accO + datafi];
+16 accl = accl + data[i+stride];
+17 acc2 = acc2 + data[i+sx2];
+18 acc3 = acc3 + data[i+sx3];
+19 }
+20
+21 /* Finish any remaining elements */
+22 for (; i < length; i++) {
+23 accO = accO + data[i];
+24 }
+25 return ((accO + accl)+ (acc2 + acc3));
+26 >
+27
+28 /* run - Run test(elems, stride) and return
+29 * "size" is in bytes, "stride" is in
+30 * CPU clock frequency in Mhz.
+31 */
+32 double run(int size, int stride, double Mhz)
+33 {
+34 double cycles;
+35 int elems = size / sizeof(double);
+36
+37 test(elems, stride);
+38 cycles = fcyc2(test, elems, stride, 0);
+39 return (size / stride) / (cycles / Mhz);
+40 }
+sx4 = stride*4;
+= 0 ;
+read throughput (MB/s).
+array elements, and Mhz is
+/* Warm up the cache */
+/* Call test(elems,stride) */
+/* Convert cycles to MB/s */
