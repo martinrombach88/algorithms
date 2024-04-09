@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ae-run-length-encoding")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b56d4d7bfdb6c6dde04b756b653c8c16cedb0ad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2b2018607d05ff6923a9dd20f0f818c778dc8bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ae-run-length-encoding")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ae-run-length-encoding")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

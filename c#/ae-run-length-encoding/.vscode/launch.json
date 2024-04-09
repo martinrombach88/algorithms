@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "C#: ae-run-length-encoding",
+      "type": "dotnet",
+      "request": "launch",
+      "projectPath": "${workspaceFolder}/ae-run-length-encoding.csproj",
+      "launchConfigurationId": "TargetFramework=;ae-run-length-encoding"
+    }
+  ]
+}
