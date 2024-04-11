@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ae-caesar-cypher-encryptor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2b2018607d05ff6923a9dd20f0f818c778dc8bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da9ad22aaef05e4563db9fe23aa6f012a296e8a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("ae-caesar-cypher-encryptor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ae-caesar-cypher-encryptor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
