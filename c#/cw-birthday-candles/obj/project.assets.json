@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/martin/Code/algorithms/c#/ae-three-number-sum-non-optimal/ae-three-number-sum-non-optimal.csproj",
-      "projectName": "ae-three-number-sum-non-optimal",
-      "projectPath": "/Users/martin/Code/algorithms/c#/ae-three-number-sum-non-optimal/ae-three-number-sum-non-optimal.csproj",
+      "projectUniqueName": "/Users/martin/Code/algorithms/c#/cw-birthday-candles/cw-birthday-candles.csproj",
+      "projectName": "cw-birthday-candles",
+      "projectPath": "/Users/martin/Code/algorithms/c#/cw-birthday-candles/cw-birthday-candles.csproj",
       "packagesPath": "/Users/martin/.nuget/packages/",
-      "outputPath": "/Users/martin/Code/algorithms/c#/ae-three-number-sum-non-optimal/obj/",
+      "outputPath": "/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/martin/.nuget/NuGet/NuGet.Config"

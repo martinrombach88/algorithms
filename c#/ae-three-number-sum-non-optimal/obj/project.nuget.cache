@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oT4f4uYBmvs/QpFZ5+iL9IpL48Gf5ExMBGcC9xA2yoOrRpuqKYlkI0kVuJ/Cvbup2c6oAtajw2bbWe3/77EgIQ==",
+  "dgSpecHash": "vlT8/jwsFFbJg/8/Oa4PkvswCC4IdoLXeHPssjvhxSKhZrNOhmSjZhdd0ExDG2j7okBOGtejes6YsGOi/dKfSQ==",
   "success": true,
-  "projectFilePath": "/Users/martin/Code/algorithms/ae-three-number-sum-non-optimal/ae-three-number-sum-non-optimal.csproj",
+  "projectFilePath": "/Users/martin/Code/algorithms/c#/ae-three-number-sum-non-optimal/ae-three-number-sum-non-optimal.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

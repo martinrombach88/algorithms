@@ -1,0 +1,15 @@
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/Debug/net8.0/cw-birthday-candles.GeneratedMSBuildEditorConfig.editorconfig
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/Debug/net8.0/cw-birthday-candles.AssemblyInfoInputs.cache
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/Debug/net8.0/cw-birthday-candles.AssemblyInfo.cs
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/Debug/net8.0/cw-birthday-candles.csproj.CoreCompileInputs.cache
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/Debug/net8.0/cw-birthday-candles.sourcelink.json
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/bin/Debug/net8.0/cw-birthday-candles
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/bin/Debug/net8.0/cw-birthday-candles.deps.json
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/bin/Debug/net8.0/cw-birthday-candles.runtimeconfig.json
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/bin/Debug/net8.0/cw-birthday-candles.dll
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/bin/Debug/net8.0/cw-birthday-candles.pdb
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/Debug/net8.0/cw-birthday-candles.dll
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/Debug/net8.0/refint/cw-birthday-candles.dll
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/Debug/net8.0/cw-birthday-candles.pdb
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/Debug/net8.0/cw-birthday-candles.genruntimeconfig.cache
+/Users/martin/Code/algorithms/c#/cw-birthday-candles/obj/Debug/net8.0/ref/cw-birthday-candles.dll
