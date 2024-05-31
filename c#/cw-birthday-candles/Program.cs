@@ -15,9 +15,9 @@ namespace BirthdayCandles
             string test = "print in main class";
             Console.WriteLine(test);
 
-            CandleList list = new CandleList();
+            CandleList list = new CandleList(unitTest1);
             list.Test();
-            list.ConvertStringListToIntList(unitTest1);
+            //list.ConvertStringListToIntList(unitTest1);
             list.PrintCandleList();
 
             ThreeCandleBlowCounter counter = new ThreeCandleBlowCounter();

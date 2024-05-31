@@ -1,0 +1,16 @@
+Following the completion of the challenge, the goal is to refactor the program using OOP.
+After building classes to a basic level, here is the recommended structure:
+
+
+
+New Classes are
+Important - building individual units to be listed is very important for OOP
+Candle - an individual candle with a property of an int
+
+CandleList - a list of Candle instances
+
+Blower - an instance of a process which blows out a sequence of candles. 
+provides a method which returns the number of blows required to blow out a sub list.
+Has to return the remaining sublist (i.e. 1 2 1 -> 0 1 0)
+
+BlowCounter - receives a candle list and feeds a set of sequences to an instance/instances of a blower/blowers (if you can do it with 1 blower that’s best). it sums all counts from each blow and returns the sum.
