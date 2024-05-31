@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using BirthdayCandles.Classes;
 
+
 namespace BirthdayCandles
 {
 
@@ -19,8 +20,10 @@ namespace BirthdayCandles
             list.ConvertStringListToIntList(unitTest1);
             list.PrintCandleList();
 
-            CandleBlowCounter counter = new CandleBlowCounter();
-            counter.GetCandleBlowCountIfThreePerBlow(list);
+            ThreeCandleBlowCounter counter = new ThreeCandleBlowCounter();
+            counter.Test();
+            int result = counter.GetCandleBlowCount(list);
+            Console.WriteLine(result);
         }
     }
 
