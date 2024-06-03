@@ -3,7 +3,7 @@ namespace BirthdayCandles.Classes
     public class CandleList
     {
 
-        public List<int> candles { get; set; } = new List<int>();
+        public List<Candle> candles { get; set; } = new List<Candle>();
 
         //class purpose -> to take a string and convert it into a list of ints 
 
@@ -11,22 +11,19 @@ namespace BirthdayCandles.Classes
         {
             for (int i = 0; i < list.Length; i++)
             {
-                int t = (int)Char.GetNumericValue(list[i]);
-                candles.Add(t);
+                int blowCount = (int)Char.GetNumericValue(list[i]);
+                //Console.WriteLine("" + blowCount);
+                Candle candle = new Candle(blowCount);
+                candles.Add(candle);
             }
-            // }
-            // public void ConvertStringListToIntList()
-            // {
         }
-
-        // }
 
         public void PrintCandleList()
         {
-
-            foreach (int candle in candles)
+            Console.Write("Blow counts for all candles");
+            foreach (Candle candle in candles)
             {
-                Console.Write(" " + candle);
+                Console.Write(" " + candle._blowCount);
             }
             Console.WriteLine("");
 

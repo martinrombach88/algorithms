@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cw-birthday-candles")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c172667366a6c9a29a8a0f69ed45aae2101fa59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f94b0e58fb760c96323472c29c425047a75c9d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("cw-birthday-candles")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cw-birthday-candles")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

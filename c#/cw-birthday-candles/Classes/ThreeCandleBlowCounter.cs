@@ -8,6 +8,7 @@ namespace BirthdayCandles.Classes
 
     public class ThreeCandleBlowCounter
     {
+        /*
         public int GetCandleBlowCount(CandleList candleList) //blowCount
         {
             int c = 0;
@@ -48,7 +49,7 @@ namespace BirthdayCandles.Classes
             return c;
 
         }
-
+*/
         public void Test()
         {
             Console.WriteLine("print from candle blow counter");
