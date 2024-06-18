@@ -5,16 +5,14 @@ using BirthdayCandles.Classes;
 
 /*
 New Classes 
+-> you need individual data objects to make a list of, like Candle
+
 Candle - an individual candle with a property of an int
 
 CandleList - a list of Candle instances
 
-Blower - an instance of a process which blows out a sequence of candles. 
-provides a method which returns the number of blows required to blow out a sub list.
-Has to return the remaining sublist (i.e. 1 2 1 -> 0 1 0)
-
-BlowCounter - receives a candle list and feeds a set of sequences to an instance/instances of a blower/blowers 
-(if you can do it with 1 blower that’s best). it sums all counts from each blow and returns the sum.
+CandleBlowCalculator - A calculator that returns the desired result when given a candle list
+(a true oop solution would divide this down to individual objects but it serves no purpose)
 
 */
 
@@ -26,17 +24,67 @@ namespace BirthdayCandles
         static void Main(string[] args)
         {
             string unitTest1 = "1321";
-            string test = "print in main class";
-            Console.WriteLine(test);
 
             CandleList list = new CandleList(unitTest1);
-            list.PrintCandleList();
+            //list.PrintCandleList();
 
-            //ThreeCandleBlowCounter counter = new ThreeCandleBlowCounter();
-            //counter.Test();
-            //int result = counter.GetCandleBlowCount(list);
-            //Console.WriteLine(result);
+            //CandleBlowCountCalculator calc = new CandleBlowCountCalculator();
+            //int result = calc.GetCount(list);
+
+            foreach (Candle candle in list.candles)
+            {
+                /*
+                Console.WriteLine("before set " + candle._blowCount);
+                int t = candle._blowCount - 1;
+                candle._blowCount = t;
+                Console.WriteLine("after set " + candle._blowCount);
+                
+                next:
+                use the code above to apply the logic
+                
+                */
+            }
+
+
+
         }
     }
 
 }
+/*
+
+        int c = 0;
+            for (int i = 0; i < candles.Length;)
+            {
+                
+                while (candles[i].blowCount > 0)
+                {
+
+                    if (i < candles.Length- 2)
+                    {
+                        candles[i].blowCount --;
+                        candles[i + 1].blowCount--;
+                        candles[i + 2].blowCount--;
+                        c++;
+                        continue;
+                    }
+                    if (i < candles.Length - 1)
+                    {
+                        candles[i].blowCount--;
+                        candles[i + 1].blowCount--;
+                        c++;
+                        continue;
+                    }
+
+                    if (i == candles.Length- 1)
+                    {
+                        candles[i].blowCount--;
+                        c++;
+                        continue;
+                    }
+                }
+                i++;
+            }
+            Console.WriteLine(c);
+
+            */

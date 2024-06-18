@@ -12,7 +12,6 @@ namespace BirthdayCandles.Classes
             for (int i = 0; i < list.Length; i++)
             {
                 int blowCount = (int)Char.GetNumericValue(list[i]);
-                //Console.WriteLine("" + blowCount);
                 Candle candle = new Candle(blowCount);
                 candles.Add(candle);
             }
@@ -27,10 +26,6 @@ namespace BirthdayCandles.Classes
             }
             Console.WriteLine("");
 
-        }
-        public void Test()
-        {
-            Console.WriteLine("print from CandleList");
         }
     }
 }
