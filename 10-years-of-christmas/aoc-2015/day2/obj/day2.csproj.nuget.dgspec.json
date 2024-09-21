@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\algorithms\\8-years-of-christmas\\aoc-2015\\day2\\day2.csproj": {}
+    "C:\\repos\\algorithms\\10-years-of-christmas\\aoc-2015\\day2\\day2.csproj": {}
   },
   "projects": {
-    "C:\\repos\\algorithms\\8-years-of-christmas\\aoc-2015\\day2\\day2.csproj": {
+    "C:\\repos\\algorithms\\10-years-of-christmas\\aoc-2015\\day2\\day2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\algorithms\\8-years-of-christmas\\aoc-2015\\day2\\day2.csproj",
+        "projectUniqueName": "C:\\repos\\algorithms\\10-years-of-christmas\\aoc-2015\\day2\\day2.csproj",
         "projectName": "day2",
-        "projectPath": "C:\\repos\\algorithms\\8-years-of-christmas\\aoc-2015\\day2\\day2.csproj",
+        "projectPath": "C:\\repos\\algorithms\\10-years-of-christmas\\aoc-2015\\day2\\day2.csproj",
         "packagesPath": "C:\\Users\\Martin.Rombach\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\algorithms\\8-years-of-christmas\\aoc-2015\\day2\\obj\\",
+        "outputPath": "C:\\repos\\algorithms\\10-years-of-christmas\\aoc-2015\\day2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Martin.Rombach\\AppData\\Roaming\\NuGet\\NuGet.Config",

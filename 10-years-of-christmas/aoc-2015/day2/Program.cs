@@ -4,10 +4,11 @@ int total = 0;
 IEnumerable<string> boxes = File.ReadLines("input.txt");
 foreach(string box in boxes) {
    List<int> intBox = wrappingPaper.SplitString(box);
-   total += wrappingPaper.CalculateBoxAndSlack(intBox);
+   total += wrappingPaper.CalculateBox(intBox);
+   total += wrappingPaper.CalculateSlack(intBox);
 }
 Console.WriteLine(total);
-//too high.
+
 public static class wrappingPaper {
 
     public static List<int> SplitString(string dimString) {
@@ -20,29 +21,33 @@ public static class wrappingPaper {
         foreach (string n in nList) {
            dimensions.Add(int.Parse(n));   
        }
-       return dimensions;
+        List<int> sides = new List<int>{};
+        sides.Add(dimensions[0] * dimensions[1]);
+        sides.Add(dimensions[1] * dimensions[2]);
+        sides.Add(dimensions[2] * dimensions[0]);
+
+       return sides;
     }
 
-    public static int CalculateBoxAndSlack(List<int> box) {
-        //2*l*w + 2*w*h + 2*h*l. + smallest side
-        //result is too high.
-        //your ternary has 0s, so it should be too low
-
+    public static int CalculateBox(List<int> box) {
         int total = 0;
-        int s1 =  2 * box[0] * box[1];
-        int s2 = 2 * box[1] * box[2];
-        int s3 = 2 * box[0] * box[2];
-
-        //smallest side is correct except when its zero
-        int ss = s1 < s2 && s1 < s3 ? s1 : s2 < s1 && s2 < s3 ? s2 : s3 < s1 && s3 < s2 ? s3 : 0;
-        //need better logic for this
-
-        //Console.WriteLine("s1 " + s1 + " s2 " + s2 +" s3 " + s3 + " so ss = " + ss);
-        total += s1;
-        total += s2;
-        total += s3;
-        total += ss;
+        total += (box[0] * 2);
+        total += (box[1] * 2);
+        total += (box[2] * 2);
 
         return total;
+    }
+    //it was too high because you added the slack calculation into the box calculation. 
+    //Methods should do 1 thing as much as possible.
+    public static int CalculateSlack(List<int> box) {
+        int smallest = box[0];
+        if (box[1] < smallest) {
+            smallest = box[1];
+        }
+        if (box[2] < smallest) {
+            smallest = box[2];
+        }
+        
+        return smallest;
     }
 }
