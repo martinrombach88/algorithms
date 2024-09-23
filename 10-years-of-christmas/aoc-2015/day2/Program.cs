@@ -1,17 +1,23 @@
 ﻿using System.Net.WebSockets;
 
-int total = 0;
+int totalPaper = 0;
+int totalRibbon = 0;
 IEnumerable<string> boxes = File.ReadLines("input.txt");
 foreach(string box in boxes) {
-   List<int> intBox = wrappingPaper.SplitString(box);
-   total += wrappingPaper.CalculateBox(intBox);
-   total += wrappingPaper.CalculateSlack(intBox);
+   List<int> dimensions = Wrapping.CalculateDimensions(box);
+   List<int> sides = Wrapping.CalculateSides(dimensions);
+   totalPaper += Wrapping.CalculateBox(sides);
+   totalPaper += Wrapping.CalculateSlack(sides);
+   totalRibbon += Wrapping.CalculateRibbon(dimensions);
+   totalRibbon += Wrapping.CalculateBow(dimensions);
 }
-Console.WriteLine(total);
+Console.WriteLine("paper: " + totalPaper);
+Console.WriteLine("ribbon: " + totalRibbon);
 
-public static class wrappingPaper {
 
-    public static List<int> SplitString(string dimString) {
+public static class Wrapping {
+
+    public static List<int> CalculateDimensions(string dimString) {
         //sample string 20x3x11
         string[] nList = dimString.Split("x");
     
@@ -21,14 +27,15 @@ public static class wrappingPaper {
         foreach (string n in nList) {
            dimensions.Add(int.Parse(n));   
        }
+       return dimensions;
+    }
+    public static List<int> CalculateSides(List<int> dimensions) {
         List<int> sides = new List<int>{};
         sides.Add(dimensions[0] * dimensions[1]);
         sides.Add(dimensions[1] * dimensions[2]);
         sides.Add(dimensions[2] * dimensions[0]);
-
-       return sides;
+        return sides;
     }
-
     public static int CalculateBox(List<int> box) {
         int total = 0;
         total += (box[0] * 2);
@@ -49,5 +56,19 @@ public static class wrappingPaper {
         }
         
         return smallest;
+    }
+    //its still too high when you use the dimensions (3858306)
+    //you can only really change the inputs here.
+    //clue -> the order of the inputs is wrong. read the prompt!
+    //solution -> the prompt says the ribbons are based on the shortest sides. This means the smallest dimensions must be used first,
+    //as usually the array is in random order, with any possible dimension.
+    public static int CalculateRibbon(List<int> box) {
+        box.Sort();
+        return box[0] + box[0] + box[1] + box[1];
+    }
+
+    public static int CalculateBow(List<int> box) {
+        box.Sort();
+        return box[0] * box[1] * box[2];
     }
 }
