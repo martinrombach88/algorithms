@@ -8,29 +8,25 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Martin.Rombach\\.nuget\\packages\\": {}
+    "/Users/martin/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\algorithms\\8-years-of-christmas\\aoc-2015\\day1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "/Users/martin/Code/algorithms/10-years-of-christmas/aoc-2015/day1/ConsoleApp1/ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\repos\\algorithms\\8-years-of-christmas\\aoc-2015\\day1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\Martin.Rombach\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\algorithms\\8-years-of-christmas\\aoc-2015\\day1\\ConsoleApp1\\obj\\",
+      "projectPath": "/Users/martin/Code/algorithms/10-years-of-christmas/aoc-2015/day1/ConsoleApp1/ConsoleApp1.csproj",
+      "packagesPath": "/Users/martin/.nuget/packages/",
+      "outputPath": "/Users/martin/Code/algorithms/10-years-of-christmas/aoc-2015/day1/ConsoleApp1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Martin.Rombach\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/martin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.pkg.github.com/dentistplan/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -68,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
